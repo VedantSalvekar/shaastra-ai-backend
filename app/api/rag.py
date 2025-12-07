@@ -1,7 +1,8 @@
 from fastapi import APIRouter, HTTPException, status
-from app.schemas.rag import IndexRequest, SearchRequest, SearchResponse, IngestTextRequest
+from app.schemas.rag import IndexRequest, SearchRequest, SearchResponse, IngestTextRequest, AnswerRequest, AnswerResponse
 from app.services import vector_store
 from app.services.ingestion import ingest_text
+from app.services.rag_answer import generate_rag_answer
 
 router = APIRouter(prefix="/rag", tags=["RAG"])
 
@@ -44,3 +45,15 @@ def semantic_search(request: SearchRequest) -> SearchResponse:
         )
     return response
 
+@router.post("/answer", response_model=AnswerResponse)
+def rag_answer(request: AnswerRequest) -> AnswerResponse:
+
+    try:
+        return generate_rag_answer(request)
+    except HTTPException:
+        raise  
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to generate answer: {str(e)}"
+        )

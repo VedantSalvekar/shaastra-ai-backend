@@ -41,3 +41,18 @@ class IngestTextRequest(BaseModel):
     )
     chunk_size: int = Field(500, ge=100, le=5000, description="Size of each text chunk")
     chunk_overlap: int = Field(50, ge=0, le=1000, description="Overlap between text chunks")
+
+class AnswerSource(BaseModel):
+    text: str
+    metadata: Dict[str, Any]
+    score: float
+
+class AnswerRequest(BaseModel):
+    collection: CollectionName
+    question: str = Field(..., description="The user's question to answer")
+    top_k: int = Field(5, ge=1, le=20, description="Number of relevant chunks to retrieve")
+    filter: Optional[Dict[str, Any]] = None
+
+class AnswerResponse(BaseModel):
+    answer: str
+    sources: List[AnswerSource]

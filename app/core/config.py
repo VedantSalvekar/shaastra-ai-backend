@@ -6,6 +6,8 @@ class Settings(BaseSettings):
     embedding_model_name: str = "text-embedding-3-small"
     embedding_dim: int = 1536
 
+    chat_model_name: str = "gpt-4o-mini"
+
     qdrant_url: str = "http://localhost:6333"
     qdrant_api_key: str | None
 
