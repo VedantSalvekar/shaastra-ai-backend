@@ -1,0 +1,149 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pyc
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# FastAPI / Uvicorn
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Qdrant local storage (if running locally)
+qdrant_storage/
+.qdrant/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+.cache/
+
+# Model files (large files)
+*.pkl
+*.h5
+*.model
+*.pth
+*.onnx
+
+# Data files (if you have local test data)
+data/
+*.csv
+*.json.gz
+*.parquet
+
+# Secrets and credentials
+secrets.json
+credentials.json
+service-account.json
+*.pem
+*.key
+*.crt
+
+# Backup files
+*.backup
+*~
+
+# Test outputs
+test_output/
+test_results/
+
+# Local configuration overrides
+config.local.py
+settings.local.py
+
