@@ -1,6 +1,9 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api import health, rag, user_docs
+from app.db.session import engine
+from app.db.base import Base
+from app.api.routes import auth
 
 origins = [
     "http://localhost:3000",
@@ -14,6 +17,11 @@ app=FastAPI(
     description="This is a sample API built with FastAPI.",
     version="1.0.0"
 )
+
+@app.on_event("startup")
+def on_startup() -> None:
+    Base.metadata.create_all(bind=engine)
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
@@ -24,3 +32,4 @@ app.add_middleware(
 app.include_router(health.router)
 app.include_router(rag.router)
 app.include_router(user_docs.router)
+app.include_router(auth.router, prefix="/auth", tags=["auth"])
