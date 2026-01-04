@@ -1,4 +1,5 @@
 from typing import Any, Dict, List, Literal, Optional
+from uuid import UUID
 
 from pydantic import BaseModel, Field
 
@@ -52,6 +53,7 @@ class AnswerRequest(BaseModel):
     question: str = Field(..., description="The user's question to answer")
     top_k: int = Field(5, ge=1, le=20, description="Number of relevant chunks to retrieve")
     filter: Optional[Dict[str, Any]] = None
+    session_id: Optional[UUID] = Field(None, description="Optional chat session ID to save messages")
 
 class AnswerResponse(BaseModel):
     answer: str

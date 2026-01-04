@@ -1,10 +1,13 @@
 # app/api/user_docs.py
-from fastapi import APIRouter, HTTPException, status, Query, UploadFile, File, Form
+from fastapi import APIRouter, HTTPException, status, Query, UploadFile, File, Form, Depends
 from typing import Optional
+from sqlalchemy.orm import Session
 
 from app.schemas.user_docs import UserDocTextIn, UserDocIngestResponse
 from app.services.user_docs import ingest_user_document_text
 from app.services.file_extraction import extract_text_from_file
+from app.api.deps import get_db, get_current_user
+from app.models.user import User
 
 router = APIRouter(prefix="/user-docs", tags=["user-docs"])
 
@@ -27,11 +30,12 @@ def ingest_user_doc_text_endpoint(
 @router.post("/upload-file", response_model=UserDocIngestResponse)
 async def upload_user_document_file(
     file: UploadFile = File(..., description="File to upload (PDF, DOCX, or TXT)"),
-    user_id: str = Form(..., description="User identifier"),
     title: Optional[str] = Form(None, description="Document title (uses filename if not provided)"),
     doc_id: Optional[str] = Form(None, description="Optional document ID for updates"),
     doc_type: Optional[str] = Form(None, description="Document type (e.g., bank_statement, visa_application)"),
     force: bool = Query(False, description="Force re-ingestion even if document exists"),
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db),
 ) -> UserDocIngestResponse:
     """
     Upload and ingest a user document file (PDF, DOCX, or TXT).
@@ -39,7 +43,8 @@ async def upload_user_document_file(
     This endpoint:
     1. Accepts a file upload
     2. Extracts text from the file
-    3. Indexes the text in Qdrant with metadata
+    3. Saves metadata to PostgreSQL
+    4. Indexes the text in Qdrant for RAG queries
     
     Supported file types:
     - PDF (.pdf)
@@ -48,7 +53,6 @@ async def upload_user_document_file(
     
     Args:
         file: The file to upload
-        user_id: User identifier
         title: Document title (defaults to filename)
         doc_id: Optional stable document ID (generated if not provided)
         doc_type: Optional document type for metadata
@@ -60,8 +64,8 @@ async def upload_user_document_file(
     Example:
         ```
         curl -X POST "http://localhost:8000/user-docs/upload-file" \
+          -H "Authorization: Bearer YOUR_TOKEN" \
           -F "file=@/path/to/document.pdf" \
-          -F "user_id=demo-user-123" \
           -F "title=My Bank Statement" \
           -F "doc_type=bank_statement"
         ```
@@ -114,15 +118,15 @@ async def upload_user_document_file(
         
         # Create ingestion payload
         payload = UserDocTextIn(
-            user_id=user_id,
+            user_id=str(current_user.id),
             doc_id=doc_id,
             title=title or file.filename or "Untitled Document",
             text=extracted_text,
             extra_metadata=extra_metadata,
         )
         
-        # Ingest the document
-        return ingest_user_document_text(payload, force=force)
+        # Ingest the document (saves to both Qdrant and PostgreSQL)
+        return ingest_user_document_text(payload, force=force, db=db, user_id=current_user.id)
         
     except HTTPException:
         raise

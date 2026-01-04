@@ -1,14 +1,21 @@
 # app/services/user_docs.py
 import uuid
 from typing import Dict, Any
+from sqlalchemy.orm import Session
 
 from app.schemas.user_docs import UserDocTextIn, UserDocIngestResponse
 from app.schemas.rag import IngestTextRequest
 from app.services.ingestion import ingest_text
 from app.services.vector_store import delete_by_doc_id, doc_id_exists
+from app.models.document import Document, DocumentStatus
 
 
-def ingest_user_document_text(payload: UserDocTextIn, force: bool = False) -> UserDocIngestResponse:
+def ingest_user_document_text(
+    payload: UserDocTextIn, 
+    force: bool = False,
+    db: Session | None = None,
+    user_id: int | None = None
+) -> UserDocIngestResponse:
     """
     Ingest or re-ingest a single user document into the 'user-documents' collection.
     
@@ -61,6 +68,36 @@ def ingest_user_document_text(payload: UserDocTextIn, force: bool = False) -> Us
 
     chunks_indexed = ingest_text(req)
     print(f"[OK] Indexed {chunks_indexed} chunks for user doc {doc_id}")
+
+    # 6) Save document metadata to PostgreSQL database
+    if db is not None and user_id is not None:
+        try:
+            existing_doc = db.query(Document).filter(Document.id == uuid.UUID(doc_id)).first()
+            
+            if existing_doc:
+                existing_doc.title = payload.title
+                existing_doc.doc_type = payload.extra_metadata.get("doc_type")
+                existing_doc.mime_type = payload.extra_metadata.get("content_type")
+                existing_doc.size_bytes = payload.extra_metadata.get("file_size")
+                existing_doc.status = DocumentStatus.indexed if chunks_indexed > 0 else DocumentStatus.failed
+            else:
+                doc_record = Document(
+                    id=uuid.UUID(doc_id),
+                    user_id=user_id,
+                    title=payload.title,
+                    doc_type=payload.extra_metadata.get("doc_type"),
+                    storage_key=payload.extra_metadata.get("filename"),
+                    mime_type=payload.extra_metadata.get("content_type"),
+                    size_bytes=payload.extra_metadata.get("file_size"),
+                    status=DocumentStatus.indexed if chunks_indexed > 0 else DocumentStatus.failed,
+                )
+                db.add(doc_record)
+            
+            db.commit()
+            print(f"[OK] Saved document metadata to database: {doc_id}")
+        except Exception as e:
+            print(f"[WARN] Failed to save document to database: {e}")
+            db.rollback()
 
     return UserDocIngestResponse(
         doc_id=doc_id,
