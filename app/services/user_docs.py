@@ -27,10 +27,10 @@ def ingest_user_document_text(
     - If doc_id is missing, we generate one.
     - If force is False and doc_id exists, we skip re-ingestion.
     """
-    # 1) Decide doc_id
+    # Decide doc_id
     doc_id = payload.doc_id or f"userdoc_{uuid.uuid4().hex}"
 
-    # 2) Check if document already exists (unless force re-ingestion is requested)
+    # Check if document already exists (unless force re-ingestion is requested)
     if not force and doc_id_exists("user-documents", doc_id):
         print(f"[INFO] Document {doc_id} already exists. Skipping re-ingestion.")
         # Return 0 chunks indexed since we skipped
@@ -39,7 +39,7 @@ def ingest_user_document_text(
             chunks_indexed=0,
         )
 
-    # 3) Delete existing chunks for this doc in Qdrant (if force=True or first time)
+    # Delete existing chunks for this doc in Qdrant 
     if force or payload.doc_id:
         try:
             delete_by_doc_id("user-documents", doc_id)
@@ -48,7 +48,7 @@ def ingest_user_document_text(
             # Non-fatal; just log
             print(f"[WARN] Failed to delete existing chunks for user doc {doc_id}: {e}")
 
-    # 4) Build metadata
+    # Build metadata
     metadata: Dict[str, Any] = {
         "doc_id": doc_id,
         "user_id": payload.user_id,
@@ -57,7 +57,7 @@ def ingest_user_document_text(
     }
     metadata.update(payload.extra_metadata or {})
 
-    # 5) Call existing ingestion pipeline
+    # Call existing ingestion pipeline
     req = IngestTextRequest(
         collection="user-documents",
         text=payload.text,
@@ -69,7 +69,7 @@ def ingest_user_document_text(
     chunks_indexed = ingest_text(req)
     print(f"[OK] Indexed {chunks_indexed} chunks for user doc {doc_id}")
 
-    # 6) Save document metadata to PostgreSQL database
+    # Save document metadata to PostgreSQL database
     if db is not None and user_id is not None:
         try:
             # Extract UUID from doc_id (handles both "userdoc_<uuid>" and plain UUID formats)
