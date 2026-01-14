@@ -72,7 +72,11 @@ def ingest_user_document_text(
     # 6) Save document metadata to PostgreSQL database
     if db is not None and user_id is not None:
         try:
-            existing_doc = db.query(Document).filter(Document.id == uuid.UUID(doc_id)).first()
+            # Extract UUID from doc_id (handles both "userdoc_<uuid>" and plain UUID formats)
+            uuid_str = doc_id.replace("userdoc_", "") if doc_id.startswith("userdoc_") else doc_id
+            doc_uuid = uuid.UUID(uuid_str)
+            
+            existing_doc = db.query(Document).filter(Document.id == doc_uuid).first()
             
             if existing_doc:
                 existing_doc.title = payload.title
@@ -82,7 +86,7 @@ def ingest_user_document_text(
                 existing_doc.status = DocumentStatus.indexed if chunks_indexed > 0 else DocumentStatus.failed
             else:
                 doc_record = Document(
-                    id=uuid.UUID(doc_id),
+                    id=doc_uuid,
                     user_id=user_id,
                     title=payload.title,
                     doc_type=payload.extra_metadata.get("doc_type"),
