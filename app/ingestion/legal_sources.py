@@ -111,7 +111,15 @@ LEGAL_SOURCES: List[LegalSource] = [
         topic="housing",
         subtopic="rental_disputes",
         description="Handling disputes, repairs, illegal eviction, rent issues.",
+    ),
+    LegalSource(
+        url="https://vetting.garda.ie/AboutUs/WhatWeDo",
+        provider="garda",
+        topic="vetting",
+        subtopic="vetting_overview",
+        description="Garda Vetting overview and process.",
     )
+
 
 
 ]
