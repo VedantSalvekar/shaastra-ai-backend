@@ -11,8 +11,64 @@ This prevents:
 - Situations where we need more information from the user
 """
 
+import re
 from typing import List, Optional
 from app.schemas.langgraph_state import RetrievalChunk, IntentType
+
+
+def _has_source_citations(answer: str) -> bool:
+    lower = answer.lower()
+    return "[legal source" in lower or "[user document" in lower
+
+
+def _looks_like_explicit_refusal(answer: str) -> bool:
+    """
+    True only when the model is clearly refusing to answer, not when it discusses
+    a missing detail while still giving useful information (false positives).
+    """
+    text = answer.strip().lower()
+    patterns = [
+        r"i don'?t have enough information to answer",
+        r"i don'?t have enough information in (the )?context",
+        r"i cannot answer (this|your) question (based on|with)",
+        r"there is no information (in (the )?context|available) to answer",
+        r"the (provided )?context does not (contain|include) (any )?information",
+    ]
+    return any(re.search(p, text) for p in patterns)
+
+
+def _retrieval_supports_answer(
+    legal_chunks: List[RetrievalChunk],
+    user_chunks: List[RetrievalChunk],
+    intent: IntentType,
+) -> bool:
+    """
+    User-doc and legal retrieval scores are not comparable; averaging them
+    falsely flags good legal hits when user chunks score low (or vice versa).
+    Use best (and top-k average) per branch instead of a global mean.
+    """
+    def _top_mean(scores: List[float], k: int = 2) -> float:
+        if not scores:
+            return 0.0
+        top = sorted(scores, reverse=True)[:k]
+        return sum(top) / len(top)
+
+    legal_scores = [c.score for c in legal_chunks]
+    user_scores = [c.score for c in user_chunks]
+
+    legal_best = max(legal_scores) if legal_scores else 0.0
+    user_best = max(user_scores) if user_scores else 0.0
+    legal_top_mean = _top_mean(legal_scores)
+    user_top_mean = _top_mean(user_scores)
+
+    if intent == IntentType.USER_ONLY:
+        return user_best >= 0.22 or user_top_mean >= 0.20
+    if intent == IntentType.LEGAL_ONLY:
+        return legal_best >= 0.24 or legal_top_mean >= 0.22
+    # MIXED: either branch can carry the answer
+    legal_ok = legal_best >= 0.24 or legal_top_mean >= 0.22
+    user_ok = user_best >= 0.20 or user_top_mean >= 0.18
+    return legal_ok or user_ok
 
 
 def validate_answer(
@@ -60,22 +116,15 @@ def validate_answer(
             "I'm having trouble generating a complete answer. Could you please rephrase your question or provide more details?"
         )
     
-    # ========== CHECK 2: Does the answer indicate missing information? ==========
-    # Look for phrases that suggest the LLM couldn't answer properly
-    uncertain_phrases = [
-        "i don't have enough information",
-        "i cannot find",
-        "not enough context",
-        "i'm not sure",
-        "i don't see any information"
-    ]
-    
+    # ========== CHECK 2: Explicit refusal vs. hedging while still answering ==========
+    # Broad substring checks ("i'm not sure", "i cannot find") fire when the model
+    # answers correctly but mentions a missing detail (e.g. company name) — see quality_gate tests / logs.
     answer_lower = draft_answer.lower()
-    if any(phrase in answer_lower for phrase in uncertain_phrases):
-        # The LLM admitted it doesn't know - we need more info
-        print("[INFO] Answer contains uncertainty phrases - requesting clarification")
-        
-        # Generate a helpful clarifying question based on intent
+    cites_sources = _has_source_citations(draft_answer)
+    substantive = cites_sources and len(draft_answer.strip()) >= 50
+
+    if _looks_like_explicit_refusal(draft_answer) and not substantive:
+        print("[INFO] Answer looks like an explicit refusal (no substantive cited answer)")
         if intent == IntentType.USER_ONLY or intent == IntentType.MIXED:
             if not user_has_docs:
                 return (
@@ -87,14 +136,27 @@ def validate_answer(
                     False,
                     "I couldn't find relevant information in your uploaded documents. Could you specify which document you're referring to, or provide more details about your question?"
                 )
-        
-        # Generic clarification for other cases
         return (
             False,
             "I need more information to answer your question accurately. Could you please:\n"
             "1. Rephrase your question with more specific details, or\n"
             "2. Let me know what specific aspect you're interested in?"
         )
+
+    # Soft hedge: only if the answer is short and does not cite sources
+    if not substantive:
+        weak_hedges = [
+            "i don't have enough information",
+            "not enough context",
+        ]
+        if any(h in answer_lower for h in weak_hedges):
+            print("[INFO] Short answer with weak hedge and no citations - requesting clarification")
+            return (
+                False,
+                "I need more information to answer your question accurately. Could you please:\n"
+                "1. Rephrase your question with more specific details, or\n"
+                "2. Let me know what specific aspect you're interested in?"
+            )
     
     # ========== CHECK 3: Expected user documents but got none ==========
     if intent in [IntentType.USER_ONLY, IntentType.MIXED]:
@@ -130,18 +192,15 @@ def validate_answer(
                 "3. Contact the immigration office directly for the most accurate information"
             )
     
-    # ========== CHECK 5: Very low quality chunks (low relevance scores) ==========
+    # ========== CHECK 5: Retrieval relevance (per-branch, not pooled average) ==========
     all_chunks = legal_chunks + user_chunks
-    if all_chunks:
-        # Check if all chunks have very low scores (< 0.3 is usually not very relevant)
-        avg_score = sum(chunk.score for chunk in all_chunks) / len(all_chunks)
-        if avg_score < 0.3:
-            print(f"[WARN] Low average relevance score: {avg_score}")
-            return (
-                False,
-                "I found some information, but I'm not very confident it answers your question. "
-                "Could you rephrase your question or provide more specific details?"
-            )
+    if all_chunks and not _retrieval_supports_answer(legal_chunks, user_chunks, intent):
+        print("[WARN] Retrieval scores too weak for this intent")
+        return (
+            False,
+            "I found some information, but I'm not very confident it answers your question. "
+            "Could you rephrase your question or provide more specific details?"
+        )
     
     # ========== ALL CHECKS PASSED ==========
     # The answer looks good!

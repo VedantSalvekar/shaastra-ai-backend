@@ -51,6 +51,7 @@ class GraphState(TypedDict):
     user_id: str
     question: str
     session_id: str | None
+    conversation_history: list[dict]  # Previous messages for context
     
     # Classification (single value)
     intent: IntentType | None
@@ -65,6 +66,7 @@ class GraphState(TypedDict):
     user_context_chunks: Annotated[list[RetrievalChunk], operator.add]
     
     # Answer composition (single value)
+    reasoning_steps: list[str]  # Chain of thought reasoning
     draft_answer: str | None
     final_answer: str | None
     citations: list[Citation]
@@ -132,16 +134,24 @@ def node_classify_intent(state: dict, db: Session) -> dict:
     - MIXED: Needs both legal knowledge and their documents
     - UNKNOWN: Not sure, will default to legal search
     
-    Input state: user_id, question
+    Also uses conversation history to understand context (e.g., "check now" after "am I garda vetted?")
+    
+    Input state: user_id, question, conversation_history
     Output state: adds 'intent' and metadata about user's documents
     """
     print("\n[NODE] Classifying intent...")
+    print(f"[NODE] Question: {state['question']}")
     
     # Check if user has uploaded documents and get their details
     has_docs, user_docs = user_has_documents(state["user_id"], db)
     
-    # Classify the intent using our AI classifier
-    intent = classify_intent(state["question"], has_docs)
+    # Get conversation history for context
+    conversation_history = state.get("conversation_history", [])
+    if conversation_history:
+        print(f"[NODE] Using {len(conversation_history)} previous messages for context")
+    
+    # Classify the intent using our AI classifier (with conversation context)
+    intent = classify_intent(state["question"], has_docs, conversation_history)
     
     print(f"[NODE] Intent classified as: {intent.value}")
     print(f"[NODE] User has documents: {has_docs}")
@@ -164,6 +174,7 @@ def node_classify_intent(state: dict, db: Session) -> dict:
     return {
         **state,
         "intent": intent,
+        "reasoning_steps": [f"Intent classified as {intent.value} based on question keywords and conversation history"],
         "metadata": {
             **state.get("metadata", {}),
             "user_has_docs": has_docs,
@@ -289,31 +300,38 @@ def node_compose_answer(state: dict) -> dict:
     NODE 5: Compose the answer.
     
     This node uses an LLM to generate an answer based on the retrieved context.
-    It also extracts citations from the sources used.
+    It also extracts citations from the sources used and captures reasoning steps.
     
-    Input state: question, legal_context_chunks, user_context_chunks, metadata (document_summary)
-    Output state: adds 'draft_answer' and 'citations'
+    Input state: question, legal_context_chunks, user_context_chunks, metadata (document_summary), conversation_history
+    Output state: adds 'draft_answer', 'citations', and 'reasoning_steps'
     """
     print("\n[NODE] Composing answer...")
     
     # Get document summary from metadata (if available)
     document_summary = state.get("metadata", {}).get("document_summary", "")
+    conversation_history = state.get("conversation_history", [])
     
-    # Generate answer with citations
-    answer, citations = compose_answer(
+    # Generate answer with citations and reasoning
+    answer, citations, reasoning_steps = compose_answer(
         question=state["question"],
         legal_chunks=state.get("legal_context_chunks", []),
         user_chunks=state.get("user_context_chunks", []),
-        document_summary=document_summary
+        document_summary=document_summary,
+        conversation_history=conversation_history
     )
     
     print(f"[NODE] Generated answer ({len(answer)} chars)")
     print(f"[NODE] Extracted {len(citations)} citations")
+    print(f"[NODE] Captured {len(reasoning_steps)} reasoning steps")
+    
+    # Combine with existing reasoning steps
+    all_reasoning_steps = state.get("reasoning_steps", []) + reasoning_steps
     
     return {
         **state,
         "draft_answer": answer,
-        "citations": citations
+        "citations": citations,
+        "reasoning_steps": all_reasoning_steps
     }
 
 
@@ -465,7 +483,8 @@ def process_question(
     question: str,
     user_id: str,
     db: Session,
-    session_id: str | None = None
+    session_id: str | None = None,
+    conversation_history: list[dict] = None
 ) -> OrchestrationResponse:
     """
     Main function to process a user's question through the entire LangGraph pipeline.
@@ -473,7 +492,7 @@ def process_question(
     This is what external code (like your API endpoint) should call.
     
     How it works:
-    1. Create the initial state with the question and user_id
+    1. Create the initial state with the question, user_id, and conversation history
     2. Build the graph
     3. Execute the graph (it flows through all the nodes automatically)
     4. Extract the final result
@@ -484,15 +503,17 @@ def process_question(
         user_id: The user's ID (for document filtering)
         db: Database session (for checking if user has docs)
         session_id: Optional chat session ID
+        conversation_history: Previous messages for context (e.g., [{" role": "user", "content": "..."}])
     
     Returns:
         OrchestrationResponse with answer, citations, and clarification status
     
     Example:
         response = process_question(
-            question="Can I work with Stamp 4?",
+            question="Am I garda vetted?",
             user_id="123",
-            db=db_session
+            db=db_session,
+            conversation_history=[{"role": "user", "content": "check my documents"}]
         )
         print(response.answer)
         print(response.citations)
@@ -501,6 +522,8 @@ def process_question(
     print("\n" + "="*80)
     print(f"[ORCHESTRATOR] Processing question: {question}")
     print(f"[ORCHESTRATOR] User ID: {user_id}")
+    if conversation_history:
+        print(f"[ORCHESTRATOR] Conversation history: {len(conversation_history)} messages")
     print("="*80)
     
     # ========== STEP 1: Create initial state ==========
@@ -508,11 +531,13 @@ def process_question(
         "user_id": str(user_id),
         "question": question,
         "session_id": session_id,
+        "conversation_history": conversation_history or [],
         "intent": None,
         "legal_query": None,
         "user_doc_query": None,
         "legal_context_chunks": [],
         "user_context_chunks": [],
+        "reasoning_steps": [],
         "draft_answer": None,
         "final_answer": None,
         "citations": [],
@@ -535,6 +560,13 @@ def process_question(
         print(f"[ORCHESTRATOR] Final answer: {final_state['final_answer'][:100]}...")
         print(f"[ORCHESTRATOR] Citations: {len(final_state['citations'])}")
         print(f"[ORCHESTRATOR] Needs clarification: {final_state['needs_clarification']}")
+        print(f"[ORCHESTRATOR] Reasoning steps: {len(final_state.get('reasoning_steps', []))}")
+        
+        # Print reasoning steps summary
+        if final_state.get('reasoning_steps'):
+            print("\n[ORCHESTRATOR] AI Reasoning Process:")
+            for i, step in enumerate(final_state['reasoning_steps'], 1):
+                print(f"  {i}. {step}")
         
         # ========== STEP 4: Return formatted response ==========
         return OrchestrationResponse(

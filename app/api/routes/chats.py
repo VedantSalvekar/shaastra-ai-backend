@@ -115,17 +115,38 @@ def create_chat_message(
     db.refresh(user_message)
     
     try:
-        # ========== STEP 3: Process question through LangGraph orchestrator ==========
+        # ========== STEP 3: Get conversation history ==========
+        # Fetch last 10 messages for context (5 exchanges)
+        previous_messages = db.query(ChatMessage).filter(
+            ChatMessage.session_id == session_id,
+            ChatMessage.id != user_message.id  # Exclude the message we just added
+        ).order_by(ChatMessage.created_at.desc()).limit(10).all()
+        
+        # Reverse to chronological order (oldest first)
+        previous_messages = list(reversed(previous_messages))
+        
+        # Format conversation history for the AI
+        conversation_history = []
+        for msg in previous_messages:
+            conversation_history.append({
+                "role": msg.role.value,
+                "content": msg.content
+            })
+        
+        print(f"\n[API] Conversation history: {len(conversation_history)} previous messages")
+        
+        # ========== STEP 4: Process question through LangGraph orchestrator ==========
         print(f"\n[API] Processing question: {request.content}")
         
         orchestration_result = process_question(
             question=request.content,
             user_id=str(current_user.id),
             db=db,
-            session_id=str(session_id)
+            session_id=str(session_id),
+            conversation_history=conversation_history  # Pass conversation context
         )
         
-        # ========== STEP 4: Prepare citations for database storage ==========
+        # ========== STEP 5: Prepare citations for database storage ==========
         # Convert Citation objects to dict format for JSONB storage
         citations_data = None
         if orchestration_result.citations:
@@ -144,7 +165,7 @@ def create_chat_message(
                 "metadata": orchestration_result.metadata
             }
         
-        # ========== STEP 5: Save AI response to database ==========
+        # ========== STEP 6: Save AI response to database ==========
         assistant_message = ChatMessage(
             session_id=session_id,
             role=ChatRole.assistant,
@@ -161,7 +182,7 @@ def create_chat_message(
         
         print(f"[API] Successfully created message pair (user + assistant)")
         
-        # ========== STEP 6: Return assistant's response ==========
+        # ========== STEP 7: Return assistant's response ==========
         return assistant_message
     
     except Exception as e:
