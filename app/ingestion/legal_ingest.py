@@ -1,49 +1,63 @@
 # app/ingestion/legal_ingest.py
 from typing import Optional
 
+from app.ingestion.html_loader import HtmlLoadError, load_page
 from app.ingestion.legal_sources import LEGAL_SOURCES, LegalSource
-from app.ingestion.html_loader import load_and_clean, HtmlLoadError
 from app.schemas.rag import IngestTextRequest
 from app.services.ingestion import ingest_text
 from app.services.vector_store import delete_by_doc_id, doc_id_exists
 
 
+def _build_metadata(source: LegalSource, page) -> dict:
+    return {
+        "doc_id": page.canonical_url,
+        "source": source.provider,
+        "topic": source.topic,
+        "subtopic": source.subtopic,
+        "title": page.title or source.title,
+        "source_url": page.canonical_url,
+        "url": page.canonical_url,
+        "authority_tier": source.authority_tier,
+        "description": source.description,
+        "content_hash": page.content_hash,
+        "fetched_at": page.fetched_at,
+    }
 
-def ingest_single_source(source: LegalSource, dry_run: bool = False, force: bool = False) -> Optional[int]:
+
+def ingest_single_source(
+    source: LegalSource,
+    dry_run: bool = False,
+    force: bool = False,
+) -> Optional[int]:
     """
-    Ingest a single legal source URL into the 'legal' collection.
+    Ingest a single legal source URL into the legal-knowledge collection.
 
-    Args:
-        source: The legal source to ingest
-        dry_run: If True, only preview without indexing
-        force: If True, re-ingest even if document already exists
-
-    Returns number of chunks indexed, or None if failed.
+    Returns number of chunks indexed, 0 if skipped, or None if failed.
     """
-    print(f"\n=== Ingesting: {source.url} ({source.provider} / {source.topic} / {source.subtopic}) ===")
-
-    doc_id = source.url
-    
-    # Check if document already exists (unless force re-ingestion is requested)
-    if not force and not dry_run:
-        if doc_id_exists("legal-knowledge", doc_id):
-            print(f"[SKIP] Document already exists in collection. Use force=True to re-ingest.")
-            return 0
+    print(
+        f"\n=== Ingesting: {source.url} "
+        f"({source.provider} / {source.topic} / {source.subtopic}) ==="
+    )
 
     try:
-        text = load_and_clean(source.url)
+        page = load_page(source.url)
     except HtmlLoadError as e:
         print(f"[ERROR] {e}")
         return None
 
-    if dry_run:
-        # Just show a preview for debugging
-        preview = text[:600].replace("\n", " ")
-        print(f"[DRY RUN] Loaded {len(text)} characters. Preview:")
-        print(preview + ("..." if len(text) > 600 else ""))
+    doc_id = page.canonical_url
+    print(f"[INFO] title={page.title!r} chars={len(page.text)} hash={page.content_hash[:12]}...")
+
+    if not force and not dry_run and doc_id_exists("legal-knowledge", doc_id):
+        print("[SKIP] Document already exists in collection. Use force=True to re-ingest.")
         return 0
 
-    # If force=True and document exists, delete existing chunks first
+    if dry_run:
+        preview = page.text[:600].replace("\n", " ")
+        print(f"[DRY RUN] Loaded {len(page.text)} characters. Preview:")
+        print(preview + ("..." if len(page.text) > 600 else ""))
+        return 0
+
     if force:
         try:
             delete_by_doc_id("legal-knowledge", doc_id)
@@ -53,47 +67,39 @@ def ingest_single_source(source: LegalSource, dry_run: bool = False, force: bool
 
     request = IngestTextRequest(
         collection="legal-knowledge",
-        text=text,
-        metadata={
-            "doc_id": doc_id,
-            "source": source.provider,
-            "topic": source.topic,
-            "subtopic": source.subtopic,
-            "url": source.url,
-            "description": source.description,
-        },
-        # these chunk settings are decent defaults for legal text
+        text=page.text,
+        metadata=_build_metadata(source, page),
         chunk_size=800,
         chunk_overlap=80,
     )
 
     count = ingest_text(request)
-    print(f"[OK] Indexed {count} chunks for {source.url}")
+    print(f"[OK] Indexed {count} chunks for {doc_id}")
     return count
 
 
 def ingest_all_sources(dry_run: bool = False, force: bool = False) -> None:
-    """
-    Ingest all configured legal sources.
-    
-    Args:
-        dry_run: If True, only preview without indexing
-        force: If True, re-ingest even if documents already exist
-    """
+    """Ingest all configured legal sources."""
     total_chunks = 0
     skipped = 0
+    failed = 0
+
     for src in LEGAL_SOURCES:
         result = ingest_single_source(src, dry_run=dry_run, force=force)
-        if isinstance(result, int):
-            if result == 0 and not dry_run:
-                skipped += 1
-            else:
-                total_chunks += result
+        if result is None:
+            failed += 1
+        elif result == 0 and not dry_run:
+            skipped += 1
+        else:
+            total_chunks += result
 
-    print(f"\n=== Done. Total chunks indexed: {total_chunks} | Skipped: {skipped} ===")
+    print(
+        f"\n=== Done. Total chunks indexed: {total_chunks} | "
+        f"Skipped: {skipped} | Failed: {failed} ==="
+    )
+    if failed:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
-    # Change dry_run to True if you just want to see text preview.
-    # Change force to True to re-ingest all documents even if they exist.
     ingest_all_sources(dry_run=False, force=False)

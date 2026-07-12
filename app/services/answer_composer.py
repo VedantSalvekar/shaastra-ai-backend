@@ -94,8 +94,8 @@ def compose_answer(
         context_parts.append("=== LEGAL KNOWLEDGE BASE ===")
         for i, chunk in enumerate(legal_chunks, 1):
             # Include the source URL if available
-            source = chunk.metadata.get("source_url", "Unknown source")
-            title = chunk.metadata.get("title", "Legal document")
+            source = chunk.metadata.get("source_url") or chunk.metadata.get("url", "Unknown source")
+            title = chunk.metadata.get("title") or chunk.metadata.get("description", "Legal document")
             context_parts.append(f"\n[Legal Source {i}]")
             context_parts.append(f"Title: {title}")
             context_parts.append(f"URL: {source}")
@@ -229,8 +229,8 @@ Response:"""
             citations.append(
                 Citation(
                     type=CitationType.LEGAL,
-                    title=chunk.metadata.get("title", "Legal document"),
-                    url=chunk.metadata.get("source_url"),
+                    title=chunk.metadata.get("title") or chunk.metadata.get("description", "Legal document"),
+                    url=chunk.metadata.get("source_url") or chunk.metadata.get("url"),
                     snippet=chunk.text[:200] + "..." if len(chunk.text) > 200 else chunk.text
                 )
             )

@@ -83,6 +83,7 @@ def ingest_user_document_text(
                 existing_doc.doc_type = payload.extra_metadata.get("doc_type")
                 existing_doc.mime_type = payload.extra_metadata.get("content_type")
                 existing_doc.size_bytes = payload.extra_metadata.get("file_size")
+                existing_doc.extracted_text = payload.text
                 existing_doc.status = DocumentStatus.indexed if chunks_indexed > 0 else DocumentStatus.failed
             else:
                 doc_record = Document(
@@ -93,6 +94,7 @@ def ingest_user_document_text(
                     storage_key=payload.extra_metadata.get("filename"),
                     mime_type=payload.extra_metadata.get("content_type"),
                     size_bytes=payload.extra_metadata.get("file_size"),
+                    extracted_text=payload.text,
                     status=DocumentStatus.indexed if chunks_indexed > 0 else DocumentStatus.failed,
                 )
                 db.add(doc_record)
@@ -107,4 +109,61 @@ def ingest_user_document_text(
         doc_id=doc_id,
         chunks_indexed=chunks_indexed,
     )
+
+
+def _normalize_doc_uuid(document_id: str) -> uuid.UUID:
+    """Accept either the DB UUID or the 'userdoc_<uuid>' form."""
+    raw = document_id.replace("userdoc_", "") if document_id.startswith("userdoc_") else document_id
+    return uuid.UUID(raw)
+
+
+def reindex_user_document(document_id: str, db: Session, user_id: int) -> UserDocIngestResponse:
+    """
+    Rebuild the Qdrant vectors for a single user document from the text stored
+    in PostgreSQL. Scoped to the owning user so no one can reindex another
+    user's document.
+
+    Raises ValueError if the document is not found for this user, or if no
+    stored text exists (in which case the user must re-upload the file).
+    """
+    doc_uuid = _normalize_doc_uuid(document_id)
+
+    doc = (
+        db.query(Document)
+        .filter(Document.id == doc_uuid, Document.user_id == user_id)
+        .first()
+    )
+    if doc is None:
+        raise ValueError("Document not found for this user.")
+    if not doc.extracted_text:
+        raise ValueError(
+            "No stored text for this document. It was uploaded before text "
+            "persistence was enabled — please re-upload the file."
+        )
+
+    payload = UserDocTextIn(
+        user_id=str(user_id),
+        doc_id=f"userdoc_{doc.id}",
+        title=doc.title,
+        text=doc.extracted_text,
+        extra_metadata={
+            "doc_type": doc.doc_type,
+            "filename": doc.storage_key,
+            "content_type": doc.mime_type,
+            "file_size": doc.size_bytes,
+        },
+    )
+    return ingest_user_document_text(payload, force=True, db=db, user_id=user_id)
+
+
+def reindex_all_user_documents(db: Session, user_id: int) -> list[UserDocIngestResponse]:
+    """Rebuild Qdrant vectors for every document this user has stored text for."""
+    docs = db.query(Document).filter(Document.user_id == user_id).all()
+    results: list[UserDocIngestResponse] = []
+    for doc in docs:
+        if not doc.extracted_text:
+            print(f"[WARN] Skipping reindex for {doc.id}: no stored text (re-upload needed)")
+            continue
+        results.append(reindex_user_document(str(doc.id), db=db, user_id=user_id))
+    return results
 

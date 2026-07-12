@@ -159,7 +159,17 @@ def validate_answer(
             )
     
     # ========== CHECK 3: Expected user documents but got none ==========
-    if intent in [IntentType.USER_ONLY, IntentType.MIXED]:
+    # For MIXED intent, a substantive cited answer from the legal branch is
+    # sufficient on its own. Intent classification often over-labels legal
+    # questions as MIXED (e.g. "how do I register MY permission"); we must not
+    # discard a good, cited legal answer just because the user's documents had
+    # no relevant match (or none were uploaded). USER_ONLY stays strict.
+    has_strong_legal_answer = bool(legal_chunks) and substantive
+    requires_user_docs = intent == IntentType.USER_ONLY or (
+        intent == IntentType.MIXED and not has_strong_legal_answer
+    )
+
+    if requires_user_docs:
         if not user_has_docs:
             # User is asking about their docs but hasn't uploaded any
             return (
@@ -167,8 +177,8 @@ def validate_answer(
                 "It looks like you're asking about your personal documents, but I don't see any uploaded documents in your account. "
                 "Please upload your document first, then I can help you understand it."
             )
-        
-        if user_has_docs and not user_chunks:
+
+        if not user_chunks:
             # User has docs but we didn't find relevant chunks
             return (
                 False,

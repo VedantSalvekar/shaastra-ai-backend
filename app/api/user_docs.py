@@ -4,7 +4,11 @@ from typing import Optional
 from sqlalchemy.orm import Session
 
 from app.schemas.user_docs import UserDocTextIn, UserDocIngestResponse
-from app.services.user_docs import ingest_user_document_text
+from app.services.user_docs import (
+    ingest_user_document_text,
+    reindex_all_user_documents,
+    reindex_user_document,
+)
 from app.services.file_extraction import extract_text_from_file
 from app.api.deps import get_db, get_current_user
 from app.models.user import User
@@ -134,5 +138,44 @@ async def upload_user_document_file(
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Failed to process file upload: {str(e)}",
+        )
+
+
+@router.post("/{document_id}/reindex", response_model=UserDocIngestResponse)
+def reindex_user_document_endpoint(
+    document_id: str,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db),
+) -> UserDocIngestResponse:
+    """
+    Rebuild the Qdrant vectors for one of the current user's documents from the
+    text stored in the database. Useful if the vector store was cleared/lost.
+    """
+    try:
+        return reindex_user_document(document_id, db=db, user_id=current_user.id)
+    except ValueError as e:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(e))
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to reindex document: {e}",
+        )
+
+
+@router.post("/reindex-all", response_model=list[UserDocIngestResponse])
+def reindex_all_user_documents_endpoint(
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db),
+) -> list[UserDocIngestResponse]:
+    """
+    Rebuild Qdrant vectors for all of the current user's documents that have
+    stored text. Documents uploaded before text persistence must be re-uploaded.
+    """
+    try:
+        return reindex_all_user_documents(db=db, user_id=current_user.id)
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to reindex documents: {e}",
         )
 
