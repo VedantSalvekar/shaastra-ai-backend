@@ -105,7 +105,7 @@ USER_DOC_QUERY: immigration stamp type IRP card work permit conditions employmen
         if not user_doc_query or user_doc_query == "":
             user_doc_query = question
         
-        print(f"[INFO] Query planning:")
+        print("[INFO] Query planning:")
         print(f"  Original: {question}")
         print(f"  Legal query: {legal_query}")
         print(f"  User doc query: {user_doc_query}")

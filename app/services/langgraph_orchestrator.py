@@ -18,7 +18,6 @@ from sqlalchemy.orm import Session
 import operator
 
 from app.schemas.langgraph_state import (
-    LangGraphState, 
     IntentType, 
     RetrievalChunk, 
     Citation,

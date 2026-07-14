@@ -170,7 +170,7 @@ def extract_text_from_file(
         # Try to extract as text anyway
         try:
             return extract_text_from_txt(file_content)
-        except:
+        except Exception:
             raise ValueError(
                 f"Unsupported file type: {filename}. "
                 f"Supported types: PDF (.pdf), DOCX (.docx), TXT (.txt)"

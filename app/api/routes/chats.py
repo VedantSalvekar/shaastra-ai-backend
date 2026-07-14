@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy.sql import func
 from uuid import UUID
 from pydantic import BaseModel
-from typing import Optional, List
+from typing import Optional
 
 from app.api.deps import get_db, get_current_user
 from app.models.user import User
@@ -180,7 +180,7 @@ def create_chat_message(
         db.commit()
         db.refresh(assistant_message)
         
-        print(f"[API] Successfully created message pair (user + assistant)")
+        print("[API] Successfully created message pair (user + assistant)")
         
         # ========== STEP 7: Return assistant's response ==========
         return assistant_message

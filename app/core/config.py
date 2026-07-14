@@ -1,6 +1,5 @@
 from functools import lru_cache
 from pydantic_settings import BaseSettings
-import os
 
 class Settings(BaseSettings):
     # OpenAI Settings

@@ -9,7 +9,6 @@ except ImportError:  # pragma: no cover - fallback for older langchain versions
 from app.schemas.rag import (
     IngestTextRequest,
     TextChunkIn,
-    CollectionName,
 )
 from app.services.vector_store import index_chunks
 

@@ -5,7 +5,7 @@ from qdrant_client.models import Filter, FieldCondition, MatchValue
 
 from app.core.config import get_settings
 from app.core.qdrant_client import get_qdrant_client, ensure_collection
-from app.schemas.rag import (CollectionName, TextChunkIn, IndexRequest, SearchRequest, SearchResultItem, SearchResponse)
+from app.schemas.rag import (CollectionName, TextChunkIn, SearchRequest, SearchResultItem, SearchResponse)
 from app.schemas.langgraph_state import RetrievalChunk
 
 def _map_collection_name(collection: CollectionName) -> str:
@@ -53,7 +53,6 @@ def search(request: SearchRequest) -> SearchResponse:
     """
     Perform semantic search over the given collection using LangChain's Qdrant wrapper.
     """
-    settings = get_settings()
     qdrant_collection = _map_collection_name(request.collection)
 
     embeddings = _get_embeddings()
@@ -92,10 +91,8 @@ def doc_id_exists(collection: CollectionName, doc_id: str) -> bool:
     Returns True if at least one point with this doc_id exists, False otherwise.
     """
     try:
-        settings = get_settings()
         client = get_qdrant_client()
 
-     
         qdrant_collection = _map_collection_name(collection)
 
    
@@ -132,7 +129,6 @@ def delete_by_doc_id(collection: CollectionName, doc_id: str) -> None:
     We identify a document by `doc_id` stored in the payload (metadata).
     For our legal ingestion, doc_id = source URL.
     """
-    settings = get_settings()
     client = get_qdrant_client()
 
     qdrant_collection = _map_collection_name(collection)
@@ -202,7 +198,6 @@ def search_with_filters(
             top_k=5
         )
     """
-    settings = get_settings()
     qdrant_collection = _map_collection_name(collection)
     
     # ========== SECURITY CHECK ==========

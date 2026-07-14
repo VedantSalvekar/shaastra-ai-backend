@@ -105,8 +105,6 @@ def compose_answer(
     if user_chunks:
         context_parts.append("\n=== CONTENT FROM USER'S DOCUMENTS ===")
         for i, chunk in enumerate(user_chunks, 1):
-            # Include document metadata
-            doc_id = chunk.metadata.get("doc_id", "Unknown")
             title = chunk.metadata.get("title", "User document")
             filename = chunk.metadata.get("filename", "")
             context_parts.append(f"\n[User Document {i}]")
