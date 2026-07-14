@@ -1,0 +1,4619 @@
+[
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/contracts-of-employment/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "contracts_of_employment",
+    "title": "Contracts of employment",
+    "authority_tier": "guidance",
+    "chars": 1262
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/contracts-of-employment/being-asked-to-take-a-cut-in-pay-or-hours/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "being_asked_to_take_a_cut_in_pay_or_hours",
+    "title": "Being asked to take a cut in pay or hours",
+    "authority_tier": "guidance",
+    "chars": 7212
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/contracts-of-employment/change-job-contract/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "change_job_contract",
+    "title": "Changes to your employment contract",
+    "authority_tier": "guidance",
+    "chars": 5808
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/contracts-of-employment/contract-of-employment/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "contract_of_employment",
+    "title": "Contract of employment",
+    "authority_tier": "guidance",
+    "chars": 12197
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/contracts-of-employment/right-to-request-remote-working/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "right_to_request_remote_working",
+    "title": "Right to request remote working",
+    "authority_tier": "guidance",
+    "chars": 9698
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/contracts-of-employment/rights-of-fixed-term-workers/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "rights_of_fixed_term_workers",
+    "title": "Rights of fixed-term workers",
+    "authority_tier": "guidance",
+    "chars": 12241
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/contracts-of-employment/transfer-of-business/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "transfer_of_business",
+    "title": "Transfer of business (TUPE)",
+    "authority_tier": "guidance",
+    "chars": 7709
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/contracts-of-employment/zero-hours-contracts/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "zero_hours_contracts",
+    "title": "Zero-hours contracts",
+    "authority_tier": "guidance",
+    "chars": 6130
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/data-protection-at-work/data-protection-in-the-workplace/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "data_protection_in_the_workplace",
+    "title": "Data protection in the workplace",
+    "authority_tier": "guidance",
+    "chars": 9713
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/data-protection-at-work/garda-vetting/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "garda_vetting",
+    "title": "Garda vetting",
+    "authority_tier": "guidance",
+    "chars": 8404
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/data-protection-at-work/surveillance-in-the-workplace/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "surveillance_in_the_workplace",
+    "title": "Surveillance at work",
+    "authority_tier": "guidance",
+    "chars": 8912
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/employment-rights-and-duties/employee-rights-and-entitlements/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "employee_rights_and_entitlements",
+    "title": "Employees' rights and entitlements",
+    "authority_tier": "guidance",
+    "chars": 14921
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/employment-rights-and-duties/employer-obligations/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "employer_obligations",
+    "title": "Employers' obligations in Ireland",
+    "authority_tier": "guidance",
+    "chars": 10716
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/employment-rights-and-duties/employment-laws-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "employment_laws_in_ireland",
+    "title": "Employment laws in Ireland",
+    "authority_tier": "guidance",
+    "chars": 13813
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/health-and-safety/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "health_and_safety",
+    "title": "Health and safety",
+    "authority_tier": "guidance",
+    "chars": 978
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/health-and-safety/accidents-in-the-workplace/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "accidents_in_the_workplace",
+    "title": "Accidents in the workplace",
+    "authority_tier": "guidance",
+    "chars": 6662
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/health-and-safety/health-safety-work/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "health_safety_work",
+    "title": "Health and safety at work",
+    "authority_tier": "guidance",
+    "chars": 12563
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/health-and-safety/returning-to-work-safely/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "returning_to_work_safely",
+    "title": "Returning to work safely",
+    "authority_tier": "guidance",
+    "chars": 7389
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/health-and-safety/safe-pass/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "safe_pass",
+    "title": "Safe Pass",
+    "authority_tier": "guidance",
+    "chars": 6395
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/health-and-safety/smoking-in-the-workplace/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "smoking_in_the_workplace",
+    "title": "Smoking in the workplace",
+    "authority_tier": "guidance",
+    "chars": 4301
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/health-and-safety/working-at-home/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "working_at_home",
+    "title": "Working from home",
+    "authority_tier": "guidance",
+    "chars": 12448
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/hours-of-work/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "hours_of_work",
+    "title": "Hours of work",
+    "authority_tier": "guidance",
+    "chars": 894
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/hours-of-work/employment-working-time-records/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "employment_working_time_records",
+    "title": "Keeping records of working time and breaks",
+    "authority_tier": "guidance",
+    "chars": 5044
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/hours-of-work/night-work/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "night_work",
+    "title": "Night work",
+    "authority_tier": "guidance",
+    "chars": 5617
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/hours-of-work/right-to-request-flexible-working/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "right_to_request_flexible_working",
+    "title": "Right to request flexible working",
+    "authority_tier": "guidance",
+    "chars": 10932
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/hours-of-work/work-breaks-and-rest-periods/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "work_breaks_and_rest_periods",
+    "title": "Work breaks and rest periods",
+    "authority_tier": "guidance",
+    "chars": 7609
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/hours-of-work/working-hours/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "working_hours",
+    "title": "Working hours",
+    "authority_tier": "guidance",
+    "chars": 9815
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/industrial-relations-and-trade-unions/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "industrial_relations_and_trade_unions",
+    "title": "Industrial relations and trade unions",
+    "authority_tier": "guidance",
+    "chars": 765
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/industrial-relations-and-trade-unions/employment-agreements-and-orders/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "employment_agreements_and_orders",
+    "title": "Employment agreements and orders",
+    "authority_tier": "guidance",
+    "chars": 7592
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/industrial-relations-and-trade-unions/joint-labour-committees/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "joint_labour_committees",
+    "title": "Joint Labour Committees",
+    "authority_tier": "guidance",
+    "chars": 3478
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/industrial-relations-and-trade-unions/trade-disputes/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "trade_disputes",
+    "title": "Trade disputes and industrial action",
+    "authority_tier": "guidance",
+    "chars": 6475
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/industrial-relations-and-trade-unions/trade-unions/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "trade_unions",
+    "title": "Trade unions",
+    "authority_tier": "guidance",
+    "chars": 5211
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "leave_and_holidays",
+    "title": "Leave and holidays",
+    "authority_tier": "guidance",
+    "chars": 2690
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/adoptive-leave/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "adoptive_leave",
+    "title": "Adoptive leave",
+    "authority_tier": "guidance",
+    "chars": 7425
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/annual-leave/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "annual_leave",
+    "title": "Annual leave",
+    "authority_tier": "guidance",
+    "chars": 8780
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/carers-leave/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "carers_leave",
+    "title": "Carer's leave",
+    "authority_tier": "guidance",
+    "chars": 10818
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/case-study-force-majeure-leave/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "case_study_force_majeure_leave",
+    "title": "Case study: force majeure leave",
+    "authority_tier": "guidance",
+    "chars": 2087
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/case-study-public-holiday-entitlement/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "case_study_public_holiday_entitlement",
+    "title": "Case study: Public holiday entitlement",
+    "authority_tier": "guidance",
+    "chars": 1797
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/checklist-when-applying-for-carers-leave/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "checklist_when_applying_for_carers_leave",
+    "title": "Checklist when applying for carer's leave",
+    "authority_tier": "guidance",
+    "chars": 3448
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/domestic-violence-leave/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "domestic_violence_leave",
+    "title": "Domestic violence leave",
+    "authority_tier": "guidance",
+    "chars": 9441
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/leave-for-parents/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "leave_for_parents",
+    "title": "Leave for parents",
+    "authority_tier": "guidance",
+    "chars": 4250
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/maternity-leave/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "maternity_leave",
+    "title": "Maternity leave",
+    "authority_tier": "guidance",
+    "chars": 17947
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/parental-leave/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "parental_leave",
+    "title": "Parental leave",
+    "authority_tier": "guidance",
+    "chars": 10587
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/parents-leave/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "parents_leave",
+    "title": "Parent's leave",
+    "authority_tier": "guidance",
+    "chars": 9251
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/paternity-leave/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "paternity_leave",
+    "title": "Paternity leave",
+    "authority_tier": "guidance",
+    "chars": 9030
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/public-holidays/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "public_holidays",
+    "title": "Public holidays",
+    "authority_tier": "guidance",
+    "chars": 9524
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/sick-leave-and-sick-pay/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "sick_leave_and_sick_pay",
+    "title": "Sick leave and sick pay",
+    "authority_tier": "guidance",
+    "chars": 12093
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/types-of-leave-from-work/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "types_of_leave_from_work",
+    "title": "Other types of leave from work",
+    "authority_tier": "guidance",
+    "chars": 6209
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/leave-and-holidays/unpaid-leave-for-medical-care/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "unpaid_leave_for_medical_care",
+    "title": "Unpaid leave for medical care",
+    "authority_tier": "guidance",
+    "chars": 6170
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/pay-and-employment/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "pay_and_employment",
+    "title": "Pay and employment",
+    "authority_tier": "guidance",
+    "chars": 2031
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/pay-and-employment/case-study-minimum-wage/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "case_study_minimum_wage",
+    "title": "Case study: Minimum wage",
+    "authority_tier": "guidance",
+    "chars": 1884
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/pay-and-employment/employment-detail-summary/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "employment_detail_summary",
+    "title": "Employment Detail Summary (formerly P60)",
+    "authority_tier": "guidance",
+    "chars": 5170
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/pay-and-employment/leaving-work-without-being-paid/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "leaving_work_without_being_paid",
+    "title": "Leaving work without being paid",
+    "authority_tier": "guidance",
+    "chars": 5487
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/pay-and-employment/minimum-wage/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "minimum_wage",
+    "title": "Minimum wage",
+    "authority_tier": "guidance",
+    "chars": 9707
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/pay-and-employment/pay-slip/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "pay_slip",
+    "title": "Payslips",
+    "authority_tier": "guidance",
+    "chars": 5917
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/pay-and-employment/regularly-getting-paid-late/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "regularly_getting_paid_late",
+    "title": "Regularly getting paid late",
+    "authority_tier": "guidance",
+    "chars": 3773
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/pay-and-employment/tips-gratuities-service-charges/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "tips_gratuities_service_charges",
+    "title": "Tips, gratuities and service charges",
+    "authority_tier": "guidance",
+    "chars": 7383
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/starting-work-and-changing-job/changing-job/change-job-tax-prsi/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "change_job_tax_prsi",
+    "title": "Tax, PRSI and pensions when changing job",
+    "authority_tier": "guidance",
+    "chars": 6572
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/starting-work-and-changing-job/changing-job/giving-notice/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "giving_notice",
+    "title": "Leaving your job",
+    "authority_tier": "guidance",
+    "chars": 5301
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/starting-work-and-changing-job/starting-work/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "starting_work",
+    "title": "Starting work",
+    "authority_tier": "guidance",
+    "chars": 749
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/starting-work-and-changing-job/starting-work/tax-and-starting-work/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "tax_and_starting_work",
+    "title": "Tax and starting work",
+    "authority_tier": "guidance",
+    "chars": 6477
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/starting-work-and-changing-job/training-and-looking-for-work/finding-and-getting-a-job/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "finding_and_getting_a_job",
+    "title": "Finding a job",
+    "authority_tier": "guidance",
+    "chars": 6091
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/starting-work-and-changing-job/training-and-looking-for-work/learn-new-skills-or-retrain/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "learn_new_skills_or_retrain",
+    "title": "Learn new skills or retrain",
+    "authority_tier": "guidance",
+    "chars": 5426
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/starting-work-and-changing-job/training-and-looking-for-work/return-to-work/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "return_to_work",
+    "title": "Returning to work",
+    "authority_tier": "guidance",
+    "chars": 7260
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/starting-work-and-changing-job/young-people-at-work/rights-of-young-workers",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "rights_of_young_workers",
+    "title": "Rights of young workers",
+    "authority_tier": "guidance",
+    "chars": 8283
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/starting-work-and-changing-job/young-people-at-work/rights-of-young-workers/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "rights_of_young_workers",
+    "title": "Rights of young workers",
+    "authority_tier": "guidance",
+    "chars": 8283
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/starting-work-and-changing-job/young-people-at-work/working-hours-rest-breaks-young-people/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "working_hours_rest_breaks_young_people",
+    "title": "Working hours and rest breaks for young people",
+    "authority_tier": "guidance",
+    "chars": 6312
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "types_of_employment",
+    "title": "Types of employment",
+    "authority_tier": "guidance",
+    "chars": 881
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/agency-workers/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "agency_workers",
+    "title": "Agency workers",
+    "authority_tier": "guidance",
+    "chars": 6426
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/different-types-of-workers/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "different_types_of_workers",
+    "title": "Different types of workers",
+    "authority_tier": "guidance",
+    "chars": 5894
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/domestic-workers-employment-rights/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "domestic_workers_employment_rights",
+    "title": "Domestic workers' employment rights",
+    "authority_tier": "guidance",
+    "chars": 10225
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/employment-rights-of-part-time-workers",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "employment_rights_of_part_time_workers",
+    "title": "Rights of part-time workers",
+    "authority_tier": "guidance",
+    "chars": 10524
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/employment-rights-of-part-time-workers/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "employment_rights_of_part_time_workers",
+    "title": "Rights of part-time workers",
+    "authority_tier": "guidance",
+    "chars": 10524
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/rights-of-part-time-workers/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "rights_of_part_time_workers",
+    "title": "Rights of part-time workers",
+    "authority_tier": "guidance",
+    "chars": 10524
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "self_employment",
+    "title": "Self-employment",
+    "authority_tier": "guidance",
+    "chars": 2147
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/becoming-self-employed/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "becoming_self_employed",
+    "title": "Becoming self-employed",
+    "authority_tier": "guidance",
+    "chars": 12205
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/checklist-entitlements-and-services-for-self-employed-people/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "checklist_entitlements_and_services_for_self_employed_people",
+    "title": "Checklist: information for self-employed people",
+    "authority_tier": "guidance",
+    "chars": 2953
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/closing-a-business/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "closing_a_business",
+    "title": "Closing your business",
+    "authority_tier": "guidance",
+    "chars": 9509
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/covid-19-recovery-cost-of-living-business-supports/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "covid_19_recovery_cost_of_living_business_supports",
+    "title": "COVID-19 recovery and cost of living business supports",
+    "authority_tier": "guidance",
+    "chars": 6332
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/covid-restrictions-support-scheme/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "covid_restrictions_support_scheme",
+    "title": "COVID Restrictions Support Scheme",
+    "authority_tier": "guidance",
+    "chars": 5946
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/employing-people-in-your-business/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "employing_people_in_your_business",
+    "title": "Employing people in your business",
+    "authority_tier": "guidance",
+    "chars": 7594
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/finding-information-on-starting-business/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "finding_information_on_starting_business",
+    "title": "Information on starting your own business",
+    "authority_tier": "guidance",
+    "chars": 8516
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/how-to-write-a-business-plan/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "how_to_write_a_business_plan",
+    "title": "How to write a business plan",
+    "authority_tier": "guidance",
+    "chars": 3440
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/setting-up-a-business-in-ireland",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "setting_up_a_business_in_ireland",
+    "title": "Starting a business",
+    "authority_tier": "guidance",
+    "chars": 12756
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/starting-a-business/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "starting_a_business",
+    "title": "Starting a business",
+    "authority_tier": "guidance",
+    "chars": 12756
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/step-by-step-guide-to-setting-up-a-business-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "step_by_step_guide_to_setting_up_a_business_in_ireland",
+    "title": "Step-by-step guide to setting up a business in Ireland",
+    "authority_tier": "guidance",
+    "chars": 6058
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/supports-for-businesses-going-green/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "supports_for_businesses_going_green",
+    "title": "Supports for businesses going green",
+    "authority_tier": "guidance",
+    "chars": 14828
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/self-employment/understanding-your-tax-as-a-business-owner/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "understanding_your_tax_as_a_business_owner",
+    "title": "Understanding your tax as a business owner",
+    "authority_tier": "guidance",
+    "chars": 9737
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/employment/types-of-employment/understanding-your-employment-status/",
+    "provider": "citizensinformation",
+    "topic": "employment",
+    "subtopic": "understanding_your_employment_status",
+    "title": "Understanding your employment status",
+    "authority_tier": "guidance",
+    "chars": 7173
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/health/medical-cards-and-gp-visit-cards/",
+    "provider": "citizensinformation",
+    "topic": "health",
+    "subtopic": "medical_cards_and_gp_visit_cards",
+    "title": "Medical cards and GP visit cards",
+    "authority_tier": "guidance",
+    "chars": 1736
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/health/medical-cards-and-gp-visit-cards/emergency-medical-card/",
+    "provider": "citizensinformation",
+    "topic": "health",
+    "subtopic": "emergency_medical_card",
+    "title": "Emergency medical cards",
+    "authority_tier": "guidance",
+    "chars": 3787
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/health/medical-cards-and-gp-visit-cards/examples-of-calculating-eligibility-for-gp-visit-card-for-under-70s/",
+    "provider": "citizensinformation",
+    "topic": "health",
+    "subtopic": "examples_of_calculating_eligibility_for_gp_visit_card_for_under_70s",
+    "title": "Examples of calculating eligibility for GP visit card for under 70s",
+    "authority_tier": "guidance",
+    "chars": 6120
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/health/medical-cards-and-gp-visit-cards/gp-visit-cards-for-under-8s/",
+    "provider": "citizensinformation",
+    "topic": "health",
+    "subtopic": "gp_visit_cards_for_under_8s",
+    "title": "GP visit cards for children under 8",
+    "authority_tier": "guidance",
+    "chars": 5760
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/health/medical-cards-and-gp-visit-cards/gp-visit-cards/",
+    "provider": "citizensinformation",
+    "topic": "health",
+    "subtopic": "gp_visit_cards",
+    "title": "GP visit cards",
+    "authority_tier": "guidance",
+    "chars": 9447
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/health/medical-cards-and-gp-visit-cards/medical-card-means-test-over-70s/",
+    "provider": "citizensinformation",
+    "topic": "health",
+    "subtopic": "medical_card_means_test_over_70s",
+    "title": "Over 70s means test for medical cards",
+    "authority_tier": "guidance",
+    "chars": 8096
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/health/medical-cards-and-gp-visit-cards/medical-card-means-test-under-70s/",
+    "provider": "citizensinformation",
+    "topic": "health",
+    "subtopic": "medical_card_means_test_under_70s",
+    "title": "Under 70s means test for medical card and GP visit card",
+    "authority_tier": "guidance",
+    "chars": 12396
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/health/medical-cards-and-gp-visit-cards/medical-card/",
+    "provider": "citizensinformation",
+    "topic": "health",
+    "subtopic": "medical_card",
+    "title": "Medical cards",
+    "authority_tier": "guidance",
+    "chars": 14891
+  },
+  {
+    "url": "https://www2.hse.ie/services/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "services",
+    "title": "HSE services",
+    "authority_tier": "official",
+    "chars": 2795
+  },
+  {
+    "url": "https://www2.hse.ie/services/activity-performance-data/outpatient-attendance-dashboard/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "outpatient_attendance_dashboard",
+    "title": "Outpatient attendance dashboard",
+    "authority_tier": "official",
+    "chars": 5931
+  },
+  {
+    "url": "https://www2.hse.ie/services/activity-performance-data/safety-quality-data-dashboard/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "safety_quality_data_dashboard",
+    "title": "Safety and quality of care dashboard",
+    "authority_tier": "official",
+    "chars": 14753
+  },
+  {
+    "url": "https://www2.hse.ie/services/appeals/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "appeals",
+    "title": "Appeal a decision through the HSE National Appeals Service",
+    "authority_tier": "official",
+    "chars": 6938
+  },
+  {
+    "url": "https://www2.hse.ie/services/births-deaths-and-marriages/find-a-civil-registration-service/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "find_a_civil_registration_service",
+    "title": "Find a civil registration service in Ireland",
+    "authority_tier": "official",
+    "chars": 871
+  },
+  {
+    "url": "https://www2.hse.ie/services/civil-registration-services/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "civil_registration_services",
+    "title": "Find a civil registration service in Ireland",
+    "authority_tier": "official",
+    "chars": 871
+  },
+  {
+    "url": "https://www2.hse.ie/services/civil-registration-services/civil-registration-service-ballinasloe-3/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "civil_registration_service_ballinasloe_3",
+    "title": "Civil Registration Service Ballinasloe",
+    "authority_tier": "official",
+    "chars": 1080
+  },
+  {
+    "url": "https://www2.hse.ie/services/civil-registration-services/civil-registration-service-buncrana-3/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "civil_registration_service_buncrana_3",
+    "title": "Civil Registration Service Buncrana",
+    "authority_tier": "official",
+    "chars": 1046
+  },
+  {
+    "url": "https://www2.hse.ie/services/civil-registration-services/civil-registration-service-carlow-3/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "civil_registration_service_carlow_3",
+    "title": "Civil Registration Service Carlow",
+    "authority_tier": "official",
+    "chars": 1227
+  },
+  {
+    "url": "https://www2.hse.ie/services/civil-registration-services/civil-registration-service-carrick-on-suir-3/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "civil_registration_service_carrick_on_suir_3",
+    "title": "Civil Registration Service Carrick on Suir",
+    "authority_tier": "official",
+    "chars": 1262
+  },
+  {
+    "url": "https://www2.hse.ie/services/civil-registration-services/civil-registration-service-castletownbere-3/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "civil_registration_service_castletownbere_3",
+    "title": "Civil Registration Service Castletownbere",
+    "authority_tier": "official",
+    "chars": 1055
+  },
+  {
+    "url": "https://www2.hse.ie/services/civil-registration-services/civil-registration-service-cavan-3/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "civil_registration_service_cavan_3",
+    "title": "Civil Registration Service Cavan",
+    "authority_tier": "official",
+    "chars": 1245
+  },
+  {
+    "url": "https://www2.hse.ie/services/civil-registration-services/civil-registration-service-clonmel-3/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "civil_registration_service_clonmel_3",
+    "title": "Civil Registration Service Clonmel",
+    "authority_tier": "official",
+    "chars": 1019
+  },
+  {
+    "url": "https://www2.hse.ie/services/civil-registration-services/civil-registration-service-cork-3/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "civil_registration_service_cork_3",
+    "title": "Civil Registration Service Cork",
+    "authority_tier": "official",
+    "chars": 1141
+  },
+  {
+    "url": "https://www2.hse.ie/services/civil-registration-services/civil-registration-service-drogheda-3/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "civil_registration_service_drogheda_3",
+    "title": "Civil Registration Service Drogheda",
+    "authority_tier": "official",
+    "chars": 1205
+  },
+  {
+    "url": "https://www2.hse.ie/services/civil-registration-services/civil-registration-service-dublin-3/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "civil_registration_service_dublin_3",
+    "title": "Civil Registration Service Dublin",
+    "authority_tier": "official",
+    "chars": 991
+  },
+  {
+    "url": "https://www2.hse.ie/services/common-conditions-service/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "common_conditions_service",
+    "title": "Common Conditions Service: how it works and what pharmacies can treat",
+    "authority_tier": "official",
+    "chars": 1671
+  },
+  {
+    "url": "https://www2.hse.ie/services/disability/applying-for-an-assessment-of-need/complaints-and-appeal/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "complaints_and_appeal",
+    "title": "Assessment of Need complaints",
+    "authority_tier": "official",
+    "chars": 2069
+  },
+  {
+    "url": "https://www2.hse.ie/services/domestic-sexual-gender-based-violence/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "domestic_sexual_gender_based_violence",
+    "title": "​HSE Domestic Sexual Gender Based Violence Support Services",
+    "authority_tier": "official",
+    "chars": 36792
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-a-gp/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "find_a_gp",
+    "title": "Find a GP in Ireland",
+    "authority_tier": "official",
+    "chars": 2317
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-a-vaccine/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "find_a_vaccine",
+    "title": "Find a vaccine location in Ireland",
+    "authority_tier": "official",
+    "chars": 3104
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-urgent-emergency-care/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "find_urgent_emergency_care",
+    "title": "Find urgent and emergency care in Ireland",
+    "authority_tier": "official",
+    "chars": 1662
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-urgent-emergency-care/bantry-local-injury-unit/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "bantry_local_injury_unit",
+    "title": "Bantry Injury Unit",
+    "authority_tier": "official",
+    "chars": 2894
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-urgent-emergency-care/beaumont-hospital-emergency-department/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "beaumont_hospital_emergency_department",
+    "title": "Beaumont Hospital Emergency Department",
+    "authority_tier": "official",
+    "chars": 2442
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-urgent-emergency-care/caredoc-arklow/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "caredoc_arklow",
+    "title": "Caredoc Arklow",
+    "authority_tier": "official",
+    "chars": 3032
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-urgent-emergency-care/caredoc-carlow/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "caredoc_carlow",
+    "title": "Caredoc Carlow",
+    "authority_tier": "official",
+    "chars": 2994
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-urgent-emergency-care/caredoc-cashel/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "caredoc_cashel",
+    "title": "Caredoc Cashel",
+    "authority_tier": "official",
+    "chars": 2979
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-urgent-emergency-care/caredoc-clonmel/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "caredoc_clonmel",
+    "title": "Caredoc Clonmel",
+    "authority_tier": "official",
+    "chars": 2982
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-urgent-emergency-care/caredoc-dungarvan/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "caredoc_dungarvan",
+    "title": "Caredoc Dungarvan",
+    "authority_tier": "official",
+    "chars": 2970
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-urgent-emergency-care/caredoc-enniscorthy/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "caredoc_enniscorthy",
+    "title": "Caredoc Enniscorthy",
+    "authority_tier": "official",
+    "chars": 3094
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-urgent-emergency-care/caredoc-gorey/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "caredoc_gorey",
+    "title": "Caredoc Gorey",
+    "authority_tier": "official",
+    "chars": 2964
+  },
+  {
+    "url": "https://www2.hse.ie/services/find-urgent-emergency-care/caredoc-kilkenny/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "caredoc_kilkenny",
+    "title": "Caredoc Kilkenny",
+    "authority_tier": "official",
+    "chars": 2976
+  },
+  {
+    "url": "https://www2.hse.ie/services/habit-addiction/drugs-and-alcohol-helpline/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "drugs_and_alcohol_helpline",
+    "title": "Drugs and Alcohol Helpline",
+    "authority_tier": "official",
+    "chars": 1369
+  },
+  {
+    "url": "https://www2.hse.ie/services/home-support-service/after-you-apply/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "after_you_apply",
+    "title": "After you apply for the Home Support Service",
+    "authority_tier": "official",
+    "chars": 2585
+  },
+  {
+    "url": "https://www2.hse.ie/services/home-support-service/choosing-an-approved-provider/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "choosing_an_approved_provider",
+    "title": "Choosing an approved home support provider",
+    "authority_tier": "official",
+    "chars": 3297
+  },
+  {
+    "url": "https://www2.hse.ie/services/home-support-service/home-support-service-for-older-people/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "home_support_service_for_older_people",
+    "title": "Home Support Service for older people",
+    "authority_tier": "official",
+    "chars": 1890
+  },
+  {
+    "url": "https://www2.hse.ie/services/home-support-service/how-to-apply/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "how_to_apply",
+    "title": "How to apply for the Home Support Service",
+    "authority_tier": "official",
+    "chars": 2866
+  },
+  {
+    "url": "https://www2.hse.ie/services/hospitals/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "hospitals",
+    "title": "Find a hospital in Ireland",
+    "authority_tier": "official",
+    "chars": 708
+  },
+  {
+    "url": "https://www2.hse.ie/services/hospitals/bantry-general-hospital/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "bantry_general_hospital",
+    "title": "Bantry General Hospital",
+    "authority_tier": "official",
+    "chars": 1405
+  },
+  {
+    "url": "https://www2.hse.ie/services/hospitals/beaumont-hospital/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "beaumont_hospital",
+    "title": "Beaumont Hospital",
+    "authority_tier": "official",
+    "chars": 3847
+  },
+  {
+    "url": "https://www2.hse.ie/services/hospitals/cavan-general-hospital/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "cavan_general_hospital",
+    "title": "Cavan Monaghan General Hospital",
+    "authority_tier": "official",
+    "chars": 2094
+  },
+  {
+    "url": "https://www2.hse.ie/services/hospitals/childrens-health-ireland-at-connolly/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "childrens_health_ireland_at_connolly",
+    "title": "Children's Health Ireland at Connolly Hospital",
+    "authority_tier": "official",
+    "chars": 1308
+  },
+  {
+    "url": "https://www2.hse.ie/services/hospitals/childrens-health-ireland-at-crumlin/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "childrens_health_ireland_at_crumlin",
+    "title": "Children’s Health Ireland at Crumlin",
+    "authority_tier": "official",
+    "chars": 2942
+  },
+  {
+    "url": "https://www2.hse.ie/services/hospitals/childrens-health-ireland-at-tallaght/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "childrens_health_ireland_at_tallaght",
+    "title": "Children’s Health Ireland at Tallaght",
+    "authority_tier": "official",
+    "chars": 2952
+  },
+  {
+    "url": "https://www2.hse.ie/services/hospitals/childrens-health-ireland-at-temple-street/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "childrens_health_ireland_at_temple_street",
+    "title": "Children’s Health Ireland at Temple Street",
+    "authority_tier": "official",
+    "chars": 2434
+  },
+  {
+    "url": "https://www2.hse.ie/services/hospitals/connolly-hospital-dublin/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "connolly_hospital_dublin",
+    "title": "Connolly Hospital Blanchardstown",
+    "authority_tier": "official",
+    "chars": 4040
+  },
+  {
+    "url": "https://www2.hse.ie/services/hospitals/cork-university-hospital/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "cork_university_hospital",
+    "title": "Cork University Hospital",
+    "authority_tier": "official",
+    "chars": 2857
+  },
+  {
+    "url": "https://www2.hse.ie/services/hospitals/cork-university-maternity-hospital/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "cork_university_maternity_hospital",
+    "title": "Cork University Maternity Hospital",
+    "authority_tier": "official",
+    "chars": 1775
+  },
+  {
+    "url": "https://www2.hse.ie/services/human-trafficking/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "human_trafficking",
+    "title": "Human trafficking",
+    "authority_tier": "official",
+    "chars": 2752
+  },
+  {
+    "url": "https://www2.hse.ie/services/moving-from-child-to-adult-health-services/planning-your-move/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "planning_your_move",
+    "title": "Planning your move to adult health services",
+    "authority_tier": "official",
+    "chars": 3634
+  },
+  {
+    "url": "https://www2.hse.ie/services/moving-from-child-to-adult-health-services/why-we-move-you/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "why_we_move_you",
+    "title": "Why we move you to adult health services",
+    "authority_tier": "official",
+    "chars": 2527
+  },
+  {
+    "url": "https://www2.hse.ie/services/moving-from-child-to-adult-health-services/your-first-time/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "your_first_time",
+    "title": "Your first time using adult health services",
+    "authority_tier": "official",
+    "chars": 2434
+  },
+  {
+    "url": "https://www2.hse.ie/services/pharmacies-common-conditions/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "pharmacies_common_conditions",
+    "title": "Find a pharmacy offering the Common Conditions Service (CCS)",
+    "authority_tier": "official",
+    "chars": 1968
+  },
+  {
+    "url": "https://www2.hse.ie/services/pharmacies-free-hrt/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "pharmacies_free_hrt",
+    "title": "Find a pharmacy participating in the free HRT scheme",
+    "authority_tier": "official",
+    "chars": 2096
+  },
+  {
+    "url": "https://www2.hse.ie/services/prepare-appointment/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "prepare_appointment",
+    "title": "Preparing for a healthcare appointment",
+    "authority_tier": "official",
+    "chars": 3790
+  },
+  {
+    "url": "https://www2.hse.ie/services/primary-care-centres/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "primary_care_centres",
+    "title": "Find a primary care centre in Ireland",
+    "authority_tier": "official",
+    "chars": 859
+  },
+  {
+    "url": "https://www2.hse.ie/services/primary-care-centres/abbeyknockmoy-health-centre/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "abbeyknockmoy_health_centre",
+    "title": "Abbeyknockmoy Health Centre",
+    "authority_tier": "official",
+    "chars": 819
+  },
+  {
+    "url": "https://www2.hse.ie/services/primary-care-centres/achill-health-centre/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "achill_health_centre",
+    "title": "Achill Health Centre",
+    "authority_tier": "official",
+    "chars": 1457
+  },
+  {
+    "url": "https://www2.hse.ie/services/primary-care-centres/adare-health-centre/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "adare_health_centre",
+    "title": "Adare Health Centre",
+    "authority_tier": "official",
+    "chars": 1347
+  },
+  {
+    "url": "https://www2.hse.ie/services/primary-care-centres/ahascragh-health-centre/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "ahascragh_health_centre",
+    "title": "Ahascragh Health Centre",
+    "authority_tier": "official",
+    "chars": 789
+  },
+  {
+    "url": "https://www2.hse.ie/services/primary-care-centres/annascaul-health-centre/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "annascaul_health_centre",
+    "title": "Annascaul Health Centre",
+    "authority_tier": "official",
+    "chars": 1516
+  },
+  {
+    "url": "https://www2.hse.ie/services/primary-care-centres/aranmore-health-centre/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "aranmore_health_centre",
+    "title": "Aranmore Health Centre",
+    "authority_tier": "official",
+    "chars": 1370
+  },
+  {
+    "url": "https://www2.hse.ie/services/primary-care-centres/ardee-health-centre/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "ardee_health_centre",
+    "title": "Ardee Health Centre",
+    "authority_tier": "official",
+    "chars": 1392
+  },
+  {
+    "url": "https://www2.hse.ie/services/primary-care-centres/ardmore-health-centre/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "ardmore_health_centre",
+    "title": "Ardmore Health Centre",
+    "authority_tier": "official",
+    "chars": 1368
+  },
+  {
+    "url": "https://www2.hse.ie/services/primary-care-centres/ardrahan-health-centre/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "ardrahan_health_centre",
+    "title": "Ardrahan Health Centre",
+    "authority_tier": "official",
+    "chars": 728
+  },
+  {
+    "url": "https://www2.hse.ie/services/primary-care-centres/arklow-health-centre/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "arklow_health_centre",
+    "title": "Arklow Primary Care Centre",
+    "authority_tier": "official",
+    "chars": 1509
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "schemes_allowances",
+    "title": "Schemes and allowances",
+    "authority_tier": "official",
+    "chars": 1571
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/blind-welfare-allowance/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "blind_welfare_allowance",
+    "title": "Blind welfare allowance",
+    "authority_tier": "official",
+    "chars": 2873
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/ehic/apply/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "apply",
+    "title": "Apply for an EHIC in Ireland",
+    "authority_tier": "official",
+    "chars": 5816
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/ehic/visitors-to-ireland/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "visitors_to_ireland",
+    "title": "Get treatment with an EHIC",
+    "authority_tier": "official",
+    "chars": 3001
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/endometriosis-surgery-abroad-interim-scheme/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "endometriosis_surgery_abroad_interim_scheme",
+    "title": "Endometriosis Surgery Abroad Interim Scheme",
+    "authority_tier": "official",
+    "chars": 15404
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/gp-visit-cards/gp-visit-card-8-to-69/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "gp_visit_card_8_to_69",
+    "title": "GP visit card - age 8 to 69",
+    "authority_tier": "official",
+    "chars": 12286
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/gp-visit-cards/gp-visit-cards/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "gp_visit_cards",
+    "title": "GP visit cards",
+    "authority_tier": "official",
+    "chars": 1582
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/gp-visit-cards/over-70s/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "over_70s",
+    "title": "Over 70s GP visit card",
+    "authority_tier": "official",
+    "chars": 725
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/gp-visit-cards/under-8s/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "under_8s",
+    "title": "Under 8s GP visit card",
+    "authority_tier": "official",
+    "chars": 3556
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/medical-cannabis-products-reimbursement-scheme/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "medical_cannabis_products_reimbursement_scheme",
+    "title": "Medical Cannabis Products Reimbursement Scheme",
+    "authority_tier": "official",
+    "chars": 2898
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/medical-cards/about-the-medical-card/gps-who-accept-medical-cards/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "gps_who_accept_medical_cards",
+    "title": "GPs who accept medical cards or GP visit cards",
+    "authority_tier": "official",
+    "chars": 791
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/options-while-on-a-waiting-list/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "options_while_on_a_waiting_list",
+    "title": "Options available while on a hospital waiting list",
+    "authority_tier": "official",
+    "chars": 3376
+  },
+  {
+    "url": "https://www2.hse.ie/services/schemes-allowances/treatment-abroad-scheme/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "treatment_abroad_scheme",
+    "title": "Treatment abroad scheme",
+    "authority_tier": "official",
+    "chars": 7153
+  },
+  {
+    "url": "https://www2.hse.ie/services/sexual-health/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "sexual_health",
+    "title": "Sexual health services",
+    "authority_tier": "official",
+    "chars": 802
+  },
+  {
+    "url": "https://www2.hse.ie/services/sexual-health/free-condoms/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "free_condoms",
+    "title": "Free condoms",
+    "authority_tier": "official",
+    "chars": 1109
+  },
+  {
+    "url": "https://www2.hse.ie/services/sexual-health/free-contraception/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "free_contraception",
+    "title": "Free contraception",
+    "authority_tier": "official",
+    "chars": 7602
+  },
+  {
+    "url": "https://www2.hse.ie/services/sexual-health/sexual-health-services-and-clinics/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "sexual_health_services_and_clinics",
+    "title": "services and clinics",
+    "authority_tier": "official",
+    "chars": 3183
+  },
+  {
+    "url": "https://www2.hse.ie/services/telehealth/video-health-appointments/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "video_health_appointments",
+    "title": "Video health appointments",
+    "authority_tier": "official",
+    "chars": 6576
+  },
+  {
+    "url": "https://www2.hse.ie/services/telehealth/virtual-wards/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "virtual_wards",
+    "title": "Virtual wards",
+    "authority_tier": "official",
+    "chars": 4004
+  },
+  {
+    "url": "https://www2.hse.ie/services/urgent-emergency-care-report/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "urgent_emergency_care_report",
+    "title": "Urgent and emergency care report (daily)",
+    "authority_tier": "official",
+    "chars": 3819
+  },
+  {
+    "url": "https://www2.hse.ie/services/urgent-emergency-care-weekly-update/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "urgent_emergency_care_weekly_update",
+    "title": "Urgent and emergency care report (weekly)",
+    "authority_tier": "official",
+    "chars": 4046
+  },
+  {
+    "url": "https://www2.hse.ie/services/urgent-emergency-care/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "urgent_emergency_care",
+    "title": "Urgent and emergency care",
+    "authority_tier": "official",
+    "chars": 912
+  },
+  {
+    "url": "https://www2.hse.ie/services/womens-health-service/",
+    "provider": "hse",
+    "topic": "health",
+    "subtopic": "womens_health_service",
+    "title": "Women's Health Service for women in the sex industry",
+    "authority_tier": "official",
+    "chars": 4682
+  },
+  {
+    "url": "https://rtb.ie/renting/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "renting",
+    "title": "Renting",
+    "authority_tier": "official",
+    "chars": 761
+  },
+  {
+    "url": "https://rtb.ie/renting/beginning-a-tenancy/agreement-templates/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "agreement_templates",
+    "title": "Agreement templates",
+    "authority_tier": "official",
+    "chars": 1449
+  },
+  {
+    "url": "https://rtb.ie/renting/beginning-a-tenancy/landlord-checklist/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "landlord_checklist",
+    "title": "Landlord checklist",
+    "authority_tier": "official",
+    "chars": 2092
+  },
+  {
+    "url": "https://rtb.ie/renting/beginning-a-tenancy/students/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "students",
+    "title": "Student renting",
+    "authority_tier": "official",
+    "chars": 5497
+  },
+  {
+    "url": "https://rtb.ie/renting/beginning-a-tenancy/tenant-checklist/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "tenant_checklist",
+    "title": "Tenant checklist",
+    "authority_tier": "official",
+    "chars": 2533
+  },
+  {
+    "url": "https://rtb.ie/renting/ending-a-tenancy/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "ending_a_tenancy",
+    "title": "Ending a tenancy",
+    "authority_tier": "official",
+    "chars": 948
+  },
+  {
+    "url": "https://rtb.ie/renting/ending-a-tenancy/ending-a-cost-rental-tenancy/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "ending_a_cost_rental_tenancy",
+    "title": "Ending a cost rental tenancy",
+    "authority_tier": "official",
+    "chars": 2080
+  },
+  {
+    "url": "https://rtb.ie/renting/ending-a-tenancy/ending-a-student-specific-accommodation-tenancy/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "ending_a_student_specific_accommodation_tenancy",
+    "title": "Ending a student specific accommodation tenancy",
+    "authority_tier": "official",
+    "chars": 2709
+  },
+  {
+    "url": "https://rtb.ie/renting/ending-a-tenancy/how-a-landlord-can-end-a-tenancy/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "how_a_landlord_can_end_a_tenancy",
+    "title": "How a landlord can end a tenancy",
+    "authority_tier": "official",
+    "chars": 11896
+  },
+  {
+    "url": "https://rtb.ie/renting/ending-a-tenancy/how-a-tenant-can-end-a-tenancy/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "how_a_tenant_can_end_a_tenancy",
+    "title": "How a tenant can end a tenancy",
+    "authority_tier": "official",
+    "chars": 3562
+  },
+  {
+    "url": "https://rtb.ie/renting/ending-a-tenancy/notice-of-termination-guide/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "notice_of_termination_guide",
+    "title": "Notice of Termination guide",
+    "authority_tier": "official",
+    "chars": 12503
+  },
+  {
+    "url": "https://rtb.ie/renting/ending-a-tenancy/notice-of-termination-guides/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "notice_of_termination_guides",
+    "title": "Notice of Termination guide",
+    "authority_tier": "official",
+    "chars": 12503
+  },
+  {
+    "url": "https://rtb.ie/renting/ending-a-tenancy/signing-a-statutory-declaration-outside-of-ireland/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "signing_a_statutory_declaration_outside_of_ireland",
+    "title": "Signing a statutory declaration outside of Ireland",
+    "authority_tier": "official",
+    "chars": 2306
+  },
+  {
+    "url": "https://rtb.ie/renting/guide-to-rent-review-notices/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "guide_to_rent_review_notices",
+    "title": "Guide to rent review notices",
+    "authority_tier": "official",
+    "chars": 4818
+  },
+  {
+    "url": "https://rtb.ie/renting/guide-to-rent-setting-notices/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "guide_to_rent_setting_notices",
+    "title": "Guide to rent setting notices",
+    "authority_tier": "official",
+    "chars": 4418
+  },
+  {
+    "url": "https://rtb.ie/renting/how-a-landlord-can-end-a-tenancy-from-1-march-2026/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "how_a_landlord_can_end_a_tenancy_from_1_march_2026",
+    "title": "How a landlord can end a tenancy from 1 March 2026",
+    "authority_tier": "official",
+    "chars": 11824
+  },
+  {
+    "url": "https://rtb.ie/renting/how-a-landlord-can-end-a-tenancy/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "how_a_landlord_can_end_a_tenancy",
+    "title": "How a landlord can end a tenancy",
+    "authority_tier": "official",
+    "chars": 11896
+  },
+  {
+    "url": "https://rtb.ie/renting/rental-law-changes-from-1-march/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "rental_law_changes_from_1_march",
+    "title": "Rental law changes from 1 March 2026",
+    "authority_tier": "official",
+    "chars": 20070
+  },
+  {
+    "url": "https://rtb.ie/renting/rights-responsibilities/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "rights_responsibilities",
+    "title": "Rights and responsibilities",
+    "authority_tier": "official",
+    "chars": 1150
+  },
+  {
+    "url": "https://rtb.ie/renting/rights-responsibilities/landlord-rights-responsibilities/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "landlord_rights_responsibilities",
+    "title": "Landlord rights and responsibilities",
+    "authority_tier": "official",
+    "chars": 4254
+  },
+  {
+    "url": "https://rtb.ie/renting/rights-responsibilities/minimum-standards-for-rental-properties/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "minimum_standards_for_rental_properties",
+    "title": "Minimum standards for rental properties",
+    "authority_tier": "official",
+    "chars": 3857
+  },
+  {
+    "url": "https://rtb.ie/renting/rights-responsibilities/security-deposits/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "security_deposits",
+    "title": "Security deposits",
+    "authority_tier": "official",
+    "chars": 3087
+  },
+  {
+    "url": "https://rtb.ie/renting/rights-responsibilities/subletting-and-assignment/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "subletting_and_assignment",
+    "title": "Subletting and assignment",
+    "authority_tier": "official",
+    "chars": 2520
+  },
+  {
+    "url": "https://rtb.ie/renting/rights-responsibilities/tenant-rights-responsibilities/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "tenant_rights_responsibilities",
+    "title": "Tenant rights and responsibilities",
+    "authority_tier": "official",
+    "chars": 4517
+  },
+  {
+    "url": "https://rtb.ie/renting/rights-responsibilities/wear-and-tear/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "wear_and_tear",
+    "title": "Wear and tear",
+    "authority_tier": "official",
+    "chars": 3267
+  },
+  {
+    "url": "https://rtb.ie/renting/setting-and-reviewing-private-rents-from-1-march-2026/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "setting_and_reviewing_private_rents_from_1_march_2026",
+    "title": "Setting and reviewing private rents from 1 March 2026",
+    "authority_tier": "official",
+    "chars": 13315
+  },
+  {
+    "url": "https://rtb.ie/renting/setting-and-reviewing-private-rents/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "setting_and_reviewing_private_rents",
+    "title": "Setting and reviewing private rents from 1 March 2026",
+    "authority_tier": "official",
+    "chars": 13146
+  },
+  {
+    "url": "https://rtb.ie/renting/setting-and-reviewing-ssa-rents/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "setting_and_reviewing_ssa_rents",
+    "title": "Setting and reviewing SSA rents",
+    "authority_tier": "official",
+    "chars": 10571
+  },
+  {
+    "url": "https://rtb.ie/renting/setting-reviewing-rent/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "setting_reviewing_rent",
+    "title": "Setting and reviewing rent",
+    "authority_tier": "official",
+    "chars": 1035
+  },
+  {
+    "url": "https://rtb.ie/renting/setting-reviewing-rent/setting-and-reviewing-approved-housing-body-ahb-rent/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "setting_and_reviewing_approved_housing_body_ahb_rent",
+    "title": "Setting and reviewing Approved Housing Body (AHB) rent",
+    "authority_tier": "official",
+    "chars": 1136
+  },
+  {
+    "url": "https://rtb.ie/renting/setting-reviewing-rent/setting-and-reviewing-rent-in-a-cost-rental-tenancy/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "setting_and_reviewing_rent_in_a_cost_rental_tenancy",
+    "title": "Setting and reviewing rent in a cost rental tenancy",
+    "authority_tier": "official",
+    "chars": 4308
+  },
+  {
+    "url": "https://rtb.ie/renting/tenants-right-to-stay-in-a-rented-property-from-1-march-2026/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "tenants_right_to_stay_in_a_rented_property_from_1_march_2026",
+    "title": "Tenant’s right to stay in a rented property from 1 March 2026",
+    "authority_tier": "official",
+    "chars": 7364
+  },
+  {
+    "url": "https://rtb.ie/renting/tenants-right-to-stay-in-a-rented-property/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "tenants_right_to_stay_in_a_rented_property",
+    "title": "Tenant’s right to stay in a rented property",
+    "authority_tier": "official",
+    "chars": 7324
+  },
+  {
+    "url": "https://rtb.ie/renting/types-of-tenancies/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "types_of_tenancies",
+    "title": "Types of tenancies",
+    "authority_tier": "official",
+    "chars": 768
+  },
+  {
+    "url": "https://rtb.ie/renting/types-of-tenancies/approved-housing-bodies/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "approved_housing_bodies",
+    "title": "Approved housing bodies",
+    "authority_tier": "official",
+    "chars": 3425
+  },
+  {
+    "url": "https://rtb.ie/renting/types-of-tenancies/cost-rental-housing/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "cost_rental_housing",
+    "title": "Cost rental housing",
+    "authority_tier": "official",
+    "chars": 3034
+  },
+  {
+    "url": "https://rtb.ie/renting/types-of-tenancies/private-residential-tenancies/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "private_residential_tenancies",
+    "title": "Private residential tenancies",
+    "authority_tier": "official",
+    "chars": 5637
+  },
+  {
+    "url": "https://rtb.ie/renting/types-of-tenancies/student-specific-accommodation/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "student_specific_accommodation",
+    "title": "Student specific accommodation",
+    "authority_tier": "official",
+    "chars": 9428
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/changes-to-the-rules-for-renting-from-march-2026/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "changes_to_the_rules_for_renting_from_march_2026",
+    "title": "Changes to the rules for renting from March 2026",
+    "authority_tier": "guidance",
+    "chars": 14130
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/help-with-renting/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "help_with_renting",
+    "title": "Help with renting",
+    "authority_tier": "guidance",
+    "chars": 1540
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/help-with-renting/cost-rental-housing/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "cost_rental_housing",
+    "title": "Cost rental housing",
+    "authority_tier": "guidance",
+    "chars": 8835
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/help-with-renting/cost-rental-tenant-in-situ-scheme/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "cost_rental_tenant_in_situ_scheme",
+    "title": "Tenant in Situ Schemes",
+    "authority_tier": "guidance",
+    "chars": 6875
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/help-with-renting/housing-assistance-payment/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "housing_assistance_payment",
+    "title": "Housing Assistance Payment (HAP)",
+    "authority_tier": "guidance",
+    "chars": 19616
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/help-with-renting/tax-issues-for-renters/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "tax_issues_for_renters",
+    "title": "Tax relief and other tax issues for people renting",
+    "authority_tier": "guidance",
+    "chars": 5046
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/if-your-landlord-wants-you-to-leave/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "if_your_landlord_wants_you_to_leave",
+    "title": "If your landlord wants you to leave",
+    "authority_tier": "guidance",
+    "chars": 19093
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/landlords-rights-and-responsibilities/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "landlords_rights_and_responsibilities",
+    "title": "Landlords' rights and responsibilities",
+    "authority_tier": "guidance",
+    "chars": 853
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/landlords-rights-and-responsibilities/landlords-rights-and-obligations/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "landlords_rights_and_obligations",
+    "title": "Landlords’ rights and responsibilities",
+    "authority_tier": "guidance",
+    "chars": 13015
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/landlords-rights-and-responsibilities/registering-a-tenancy/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "registering_a_tenancy",
+    "title": "Registering a tenancy",
+    "authority_tier": "guidance",
+    "chars": 11751
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/landlords-rights-and-responsibilities/rent-increases-in-private-rented-housing/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "rent_increases_in_private_rented_housing",
+    "title": "Rent increases in private rented housing",
+    "authority_tier": "guidance",
+    "chars": 16981
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/looking-for-a-flat-or-house-to-rent/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "looking_for_a_flat_or_house_to_rent",
+    "title": "Looking for a flat or house to rent",
+    "authority_tier": "guidance",
+    "chars": 12678
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/resolving-disputes/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "resolving_disputes",
+    "title": "Resolving disputes",
+    "authority_tier": "guidance",
+    "chars": 978
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/resolving-disputes/disputes-between-landlords-and-tenants/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "disputes_between_landlords_and_tenants",
+    "title": "Resolving disputes between landlords and tenants",
+    "authority_tier": "guidance",
+    "chars": 15732
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/resolving-disputes/enforcing-a-residential-tenancies-boards-decision/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "enforcing_a_residential_tenancies_boards_decision",
+    "title": "Enforcing a Residential Tenancies Board decision",
+    "authority_tier": "guidance",
+    "chars": 5844
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/resolving-disputes/reporting-an-issue-to-the-residential-tenancies-board/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "reporting_an_issue_to_the_residential_tenancies_board",
+    "title": "Reporting an issue to the Residential Tenancies Board",
+    "authority_tier": "guidance",
+    "chars": 7682
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/resolving-disputes/residential-tenancies-board/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "residential_tenancies_board",
+    "title": "Residential Tenancies Board",
+    "authority_tier": "guidance",
+    "chars": 9738
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/tax-relief-for-tenants",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "tax_relief_for_tenants",
+    "title": "Tax relief and other tax issues for people renting",
+    "authority_tier": "guidance",
+    "chars": 5046
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "tenants_rights_and_responsibilities",
+    "title": "Tenants' rights and responsibilities",
+    "authority_tier": "guidance",
+    "chars": 2134
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/if-a-tenant-wants-to-end-a-tenancy/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "if_a_tenant_wants_to_end_a_tenancy",
+    "title": "If a tenant wants to end a tenancy",
+    "authority_tier": "guidance",
+    "chars": 4384
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/if-your-landlord-wants-you-to-leave/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "if_your_landlord_wants_you_to_leave",
+    "title": "If your landlord wants you to leave",
+    "authority_tier": "guidance",
+    "chars": 19093
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/illegal-eviction-and-overholding/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "illegal_eviction_and_overholding",
+    "title": "Illegal eviction and overholding",
+    "authority_tier": "guidance",
+    "chars": 4384
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/minimum-standards-for-rented-homes/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "minimum_standards_for_rented_homes",
+    "title": "Minimum standards for rented housing",
+    "authority_tier": "guidance",
+    "chars": 7569
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/rent-books/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "rent_books",
+    "title": "Rent books",
+    "authority_tier": "guidance",
+    "chars": 6105
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/sharing-accommodation-with-your-landlord/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "sharing_accommodation_with_your_landlord",
+    "title": "Sharing accommodation with your landlord",
+    "authority_tier": "guidance",
+    "chars": 6942
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/sharing-rented-accommodation/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "sharing_rented_accommodation",
+    "title": "Sharing rented accommodation",
+    "authority_tier": "guidance",
+    "chars": 14159
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/tenancy-agreements-and-types-of-tenancies/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "tenancy_agreements_and_types_of_tenancies",
+    "title": "Tenancy agreements and types of tenancies",
+    "authority_tier": "guidance",
+    "chars": 6380
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/tenants-rights-and-obligations/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "tenants_rights_and_obligations",
+    "title": "Tenants’ rights and responsibilities",
+    "authority_tier": "guidance",
+    "chars": 15688
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/types-of-tenancy/",
+    "provider": "citizensinformation",
+    "topic": "housing",
+    "subtopic": "types_of_tenancy",
+    "title": "Tenants' rights to stay in rented accommodation",
+    "authority_tier": "guidance",
+    "chars": 12004
+  },
+  {
+    "url": "https://www.rtb.ie/renting/ending-a-tenancy/how-a-tenant-can-end-a-tenancy/",
+    "provider": "rtb",
+    "topic": "housing",
+    "subtopic": "how_a_tenant_can_end_a_tenancy",
+    "title": "How a tenant can end a tenancy",
+    "authority_tier": "official",
+    "chars": 3562
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/before-you-come-to-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "before_you_come_to_ireland",
+    "title": "Before you come to Ireland",
+    "authority_tier": "guidance",
+    "chars": 6603
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/coming-to-live-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "coming_to_live_in_ireland",
+    "title": "Coming to live in Ireland",
+    "authority_tier": "guidance",
+    "chars": 833
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/coming-to-live-in-ireland/bringing-pets-to-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "bringing_pets_to_ireland",
+    "title": "Bringing pets to Ireland",
+    "authority_tier": "guidance",
+    "chars": 11875
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/coming-to-live-in-ireland/importing-car-into-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "importing_car_into_ireland",
+    "title": "Importing a vehicle into Ireland",
+    "authority_tier": "guidance",
+    "chars": 18851
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/coming-to-live-in-ireland/retiring-to-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "retiring_to_ireland",
+    "title": "Retiring to Ireland",
+    "authority_tier": "guidance",
+    "chars": 7664
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/coming-to-live-in-ireland/support-services-for-foreign-nationals/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "support_services_for_foreign_nationals",
+    "title": "Support services for foreign nationals in Ireland",
+    "authority_tier": "guidance",
+    "chars": 5958
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/introduction-to-the-irish-system/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "introduction_to_the_irish_system",
+    "title": "Introduction to the Irish system",
+    "authority_tier": "guidance",
+    "chars": 1999
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/introduction-to-the-irish-system/accommodation/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "accommodation",
+    "title": "Accommodation in Ireland",
+    "authority_tier": "guidance",
+    "chars": 2500
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/introduction-to-the-irish-system/health-care-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "health_care_in_ireland",
+    "title": "Health care for new residents",
+    "authority_tier": "guidance",
+    "chars": 2619
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/introduction-to-the-irish-system/moving-to-ireland-and-your-social-security-entitlements/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "moving_to_ireland_and_your_social_security_entitlements",
+    "title": "Moving to Ireland and your social security entitlements",
+    "authority_tier": "guidance",
+    "chars": 3920
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/introduction-to-the-irish-system/political-system/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "political_system",
+    "title": "Political system at national level",
+    "authority_tier": "guidance",
+    "chars": 6660
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/rights-of-residence-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "rights_of_residence_in_ireland",
+    "title": "Rights of residence in Ireland",
+    "authority_tier": "guidance",
+    "chars": 1205
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/rights-of-residence-in-ireland/permission-to-remain-for-undocumented-noneea-nationals-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "permission_to_remain_for_undocumented_noneea_nationals_in_ireland",
+    "title": "Regularisation of Long-Term Undocumented Migrants Scheme",
+    "authority_tier": "guidance",
+    "chars": 3952
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/rights-of-residence-in-ireland/registration-of-non-eea-nationals-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "registration_of_non_eea_nationals_in_ireland",
+    "title": "Registration of non-EEA nationals",
+    "authority_tier": "guidance",
+    "chars": 10676
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/rights-of-residence-in-ireland/residence-rights-eu-national/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "residence_rights_eu_national",
+    "title": "Residence rights of EU citizens and their families in Ireland",
+    "authority_tier": "guidance",
+    "chars": 14224
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/rights-of-residence-in-ireland/residence-rights-of-family-members/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "residence_rights_of_family_members",
+    "title": "Residence rights of family members",
+    "authority_tier": "guidance",
+    "chars": 9373
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/rights-of-residence-in-ireland/residence-rights-of-non-eea-nationals-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "residence_rights_of_non_eea_nationals_in_ireland",
+    "title": "Residence rights of non-EEA nationals",
+    "authority_tier": "guidance",
+    "chars": 11871
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/rights-of-residence-in-ireland/types-residence-permission-non-eea-nationals/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "types_residence_permission_non_eea_nationals",
+    "title": "Types of residence permission for non-EEA nationals",
+    "authority_tier": "guidance",
+    "chars": 10817
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/studying-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "studying_in_ireland",
+    "title": "Studying in Ireland",
+    "authority_tier": "guidance",
+    "chars": 851
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/studying-in-ireland/immigration-nonEEA-students/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "immigration_nonEEA_students",
+    "title": "Immigration rules for full-time non-EEA students",
+    "authority_tier": "guidance",
+    "chars": 7045
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/studying-in-ireland/third-level-education/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "third_level_education",
+    "title": "Moving to Ireland for third-level education",
+    "authority_tier": "guidance",
+    "chars": 11857
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/visas-for-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "visas_for_ireland",
+    "title": "Visas and permission to enter Ireland",
+    "authority_tier": "guidance",
+    "chars": 977
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/visas-for-ireland/permission-to-land-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "permission_to_land_in_ireland",
+    "title": "Permission to enter Ireland",
+    "authority_tier": "guidance",
+    "chars": 8456
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/visas-for-ireland/student-visas/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "student_visas",
+    "title": "Student visas to study in Ireland",
+    "authority_tier": "guidance",
+    "chars": 9061
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/visas-for-ireland/visa-requirements-for-entering-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "visa_requirements_for_entering_ireland",
+    "title": "Visa requirements for entering Ireland",
+    "authority_tier": "guidance",
+    "chars": 11286
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/visas-for-ireland/visas-for-business-people-visiting-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "visas_for_business_people_visiting_ireland",
+    "title": "Visas for people visiting Ireland on business",
+    "authority_tier": "guidance",
+    "chars": 7625
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/moving-country/visas-for-ireland/visas-for-tourists-visiting-ireland/",
+    "provider": "citizensinformation",
+    "topic": "immigration",
+    "subtopic": "visas_for_tourists_visiting_ireland",
+    "title": "Visas for tourists visiting Ireland",
+    "authority_tier": "guidance",
+    "chars": 7395
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "irish_social_welfare_system",
+    "title": "Irish social welfare system",
+    "authority_tier": "guidance",
+    "chars": 1259
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "case_studies_checklists",
+    "title": "Case studies, checklists and worksheets",
+    "authority_tier": "guidance",
+    "chars": 3230
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/case-study-1-calculating-your-pension-under-bi-lateral-social-security-agreements/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "case_study_1_calculating_your_pension_under_bi_lateral_social_security_agreements",
+    "title": "Case study: Calculating your pension under EU social security agreements",
+    "authority_tier": "guidance",
+    "chars": 4870
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/case-study-1-how-income-from-employment-affects-jobseeker-s-allowance/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "case_study_1_how_income_from_employment_affects_jobseeker_s_allowance",
+    "title": "Case Study 1: How income from work affects Jobseeker's Allowance",
+    "authority_tier": "guidance",
+    "chars": 5092
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/case-study-1-working-family-payment/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "case_study_1_working_family_payment",
+    "title": "Case study 1: Working Family Payment (WFP)",
+    "authority_tier": "guidance",
+    "chars": 3590
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/case-study-2-calculating-your-pension-under-bi-lateral-social-security-agreements/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "case_study_2_calculating_your_pension_under_bi_lateral_social_security_agreements",
+    "title": "Case study: Calculating your pension under bilateral social security agreements",
+    "authority_tier": "guidance",
+    "chars": 4024
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/case-study-2-how-income-from-employment-affects-your-jobseeker-s-allowance/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "case_study_2_how_income_from_employment_affects_your_jobseeker_s_allowance",
+    "title": "Case study 2: How income from work affects your Jobseeker's Allowance",
+    "authority_tier": "guidance",
+    "chars": 4002
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/case-study-2-working-family-payment/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "case_study_2_working_family_payment",
+    "title": "Case study 2: Working Family Payment (WFP)",
+    "authority_tier": "guidance",
+    "chars": 2559
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/case-study-choosing-between-the-maintenance-grant-and-back-to-education-allowance/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "case_study_choosing_between_the_maintenance_grant_and_back_to_education_allowance",
+    "title": "Case studies: Choosing between the student grant and Back to Education Allowance.",
+    "authority_tier": "guidance",
+    "chars": 5241
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/case-study-jobseekers-benefit-and-systematic-short-time-work/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "case_study_jobseekers_benefit_and_systematic_short_time_work",
+    "title": "Case study: Jobseeker’s Benefit and systematic short time work",
+    "authority_tier": "guidance",
+    "chars": 3926
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/case-study-maximising-social-welfare-income-for-a-couple/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "case_study_maximising_social_welfare_income_for_a_couple",
+    "title": "Case study: Maximising a couple's income from jobseeker's payments",
+    "authority_tier": "guidance",
+    "chars": 9196
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/case-study-taxation-of-maternity-benefit/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "case_study_taxation_of_maternity_benefit",
+    "title": "Case study: Taxation of Maternity Benefit",
+    "authority_tier": "guidance",
+    "chars": 5552
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/case-study-working-and-claiming-a-state-pension-non-contributory/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "case_study_working_and_claiming_a_state_pension_non_contributory",
+    "title": "Case study: Working and claiming a State Pension (Non-Contributory)",
+    "authority_tier": "guidance",
+    "chars": 4976
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/checklist-when-appealing-a-social-welfare-decision/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "checklist_when_appealing_a_social_welfare_decision",
+    "title": "Checklist when appealing a social welfare decision",
+    "authority_tier": "guidance",
+    "chars": 5633
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/worksheet-for-calculating-rent-supplement/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "worksheet_for_calculating_rent_supplement",
+    "title": "Worksheet for calculating Rent Supplement",
+    "authority_tier": "guidance",
+    "chars": 5110
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/worksheet-how-to-calculate-your-family-income-supplement/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "worksheet_how_to_calculate_your_family_income_supplement",
+    "title": "Worksheet: How to calculate your Working Family Payment",
+    "authority_tier": "guidance",
+    "chars": 5777
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/worksheet-jobseekers-allowance-and-income-from-work/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "worksheet_jobseekers_allowance_and_income_from_work",
+    "title": "Worksheet: Jobseeker's Allowance and income from work",
+    "authority_tier": "guidance",
+    "chars": 10228
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/worksheet-one-parent-family-payment-and-income-from-work/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "worksheet_one_parent_family_payment_and_income_from_work",
+    "title": "Worksheet: One-Parent Family Payment and income from work",
+    "authority_tier": "guidance",
+    "chars": 5449
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/case-studies-checklists/worksheet-state-pension-non-contributory-and-income-from-work/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "worksheet_state_pension_non_contributory_and_income_from_work",
+    "title": "Worksheet: State Pension (Non-Contributory) and income from work",
+    "authority_tier": "guidance",
+    "chars": 4887
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/christmas-bonus/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "christmas_bonus",
+    "title": "Christmas Bonus",
+    "authority_tier": "guidance",
+    "chars": 4506
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "claiming_a_social_welfare_payment",
+    "title": "Claiming a social welfare payment",
+    "authority_tier": "guidance",
+    "chars": 2887
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/applying-for-a-social-welfare-payment/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "applying_for_a_social_welfare_payment",
+    "title": "Claiming a social welfare payment",
+    "authority_tier": "guidance",
+    "chars": 8348
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/applying-for-social-welfare-payments-and-services-online/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "applying_for_social_welfare_payments_and_services_online",
+    "title": "Applying for social welfare payments and services online",
+    "authority_tier": "guidance",
+    "chars": 4955
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/changes-that-can-affect-your-social-welfare-payment/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "changes_that_can_affect_your_social_welfare_payment",
+    "title": "Changes that can affect your social welfare payment",
+    "authority_tier": "guidance",
+    "chars": 5643
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/claiming-an-increase-in-your-social-welfare-payment-for-an-adult-dependant/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "claiming_an_increase_in_your_social_welfare_payment_for_an_adult_dependant",
+    "title": "Claiming for an adult dependant",
+    "authority_tier": "guidance",
+    "chars": 10199
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/claiming-and-increase-in-your-payment-for-a-child-dependant/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "claiming_and_increase_in_your_payment_for_a_child_dependant",
+    "title": "Claiming for a child dependant",
+    "authority_tier": "guidance",
+    "chars": 8224
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/claiming-two-social-welfare-payments/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "claiming_two_social_welfare_payments",
+    "title": "Claiming an extra half-rate social welfare payment",
+    "authority_tier": "guidance",
+    "chars": 2919
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/examples-of-how-social-welfare-payments-are-taxed/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "examples_of_how_social_welfare_payments_are_taxed",
+    "title": "Examples of how social welfare payments are taxed",
+    "authority_tier": "guidance",
+    "chars": 5418
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/going-abroad-and-social-welfare-payments/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "going_abroad_and_social_welfare_payments",
+    "title": "Going abroad or on holidays and social welfare payments",
+    "authority_tier": "guidance",
+    "chars": 11905
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/household-budget-scheme/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "household_budget_scheme",
+    "title": "Household Budget Scheme",
+    "authority_tier": "guidance",
+    "chars": 5161
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/how-social-welfare-payments-are-paid/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "how_social_welfare_payments_are_paid",
+    "title": "How social welfare payments are paid",
+    "authority_tier": "guidance",
+    "chars": 3980
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/making-a-late-claim/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "making_a_late_claim",
+    "title": "Making a late claim",
+    "authority_tier": "guidance",
+    "chars": 5498
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/social-insurance-contributions-from-abroad/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "social_insurance_contributions_from_abroad",
+    "title": "Combining social insurance contributions from abroad",
+    "authority_tier": "guidance",
+    "chars": 13821
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/social-welfare-overpayments/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "social_welfare_overpayments",
+    "title": "Social welfare overpayments",
+    "authority_tier": "guidance",
+    "chars": 6364
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/claiming-a-social-welfare-payment/taxation-of-social-welfare-payments/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "taxation_of_social_welfare_payments",
+    "title": "Taxation of social welfare payments",
+    "authority_tier": "guidance",
+    "chars": 8812
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/means-test-for-social-welfare-payments/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "means_test_for_social_welfare_payments",
+    "title": "Means test for social welfare payments",
+    "authority_tier": "guidance",
+    "chars": 2012
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/means-test-for-social-welfare-payments/assessing-the-means-of-a-couple/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "assessing_the_means_of_a_couple",
+    "title": "Assessing the means of a couple for social assistance payments",
+    "authority_tier": "guidance",
+    "chars": 8350
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/means-test-for-social-welfare-payments/cash-income-not-included-in-the-social-welfare-means-test/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "cash_income_not_included_in_the_social_welfare_means_test",
+    "title": "Cash income not included in the means test",
+    "authority_tier": "guidance",
+    "chars": 9089
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/means-test-for-social-welfare-payments/how-parents-income-can-affect-jobseekers-allowance/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "how_parents_income_can_affect_jobseekers_allowance",
+    "title": "How parents' income can affect Jobseeker's Allowance",
+    "authority_tier": "guidance",
+    "chars": 6327
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/means-test-for-social-welfare-payments/how-parents-income-can-affect-supplementary-welfare-allowance/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "how_parents_income_can_affect_supplementary_welfare_allowance",
+    "title": "How parents' income can affect Supplementary Welfare Allowance",
+    "authority_tier": "guidance",
+    "chars": 5673
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/means-test-for-social-welfare-payments/how-to-assess-your-means-from-capital-for-social-welfare-payments/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "how_to_assess_your_means_from_capital_for_social_welfare_payments",
+    "title": "Capital and social welfare payments",
+    "authority_tier": "guidance",
+    "chars": 10467
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/means-test-for-social-welfare-payments/maintenance-and-social-welfare-payments/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "maintenance_and_social_welfare_payments",
+    "title": "Maintenance and social welfare payments",
+    "authority_tier": "guidance",
+    "chars": 5727
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/means-test-for-social-welfare-payments/means-test-for-jobseekers-allowance/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "means_test_for_jobseekers_allowance",
+    "title": "Means test for Jobseeker's Allowance",
+    "authority_tier": "guidance",
+    "chars": 14106
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/means-test-for-social-welfare-payments/means-test/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "means_test",
+    "title": "Means test",
+    "authority_tier": "guidance",
+    "chars": 12821
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/means-test-for-social-welfare-payments/work-and-jobseekers-allowance/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "work_and_jobseekers_allowance",
+    "title": "Jobseeker's Allowance and work",
+    "authority_tier": "guidance",
+    "chars": 11462
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/personal-public-service-number/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "personal_public_service_number",
+    "title": "Personal Public Service (PPS) number",
+    "authority_tier": "guidance",
+    "chars": 10013
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/public-services-card/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "public_services_card",
+    "title": "Public Services Card",
+    "authority_tier": "guidance",
+    "chars": 10585
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-assistance-payments/habitual-residence-condition/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "habitual_residence_condition",
+    "title": "The habitual residence condition",
+    "authority_tier": "guidance",
+    "chars": 13446
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-assistance-payments/social-assistance-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "social_assistance_in_ireland",
+    "title": "Social assistance payments in Ireland",
+    "authority_tier": "guidance",
+    "chars": 5088
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "social_insurance_prsi",
+    "title": "Social insurance (PRSI)",
+    "authority_tier": "guidance",
+    "chars": 2374
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/benefit-and-contribution-years-for-social-welfare/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "benefit_and_contribution_years_for_social_welfare",
+    "title": "Benefit and contribution years for social welfare purposes",
+    "authority_tier": "guidance",
+    "chars": 2497
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/class-s-prsi/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "class_s_prsi",
+    "title": "Class S PRSI",
+    "authority_tier": "guidance",
+    "chars": 6365
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/credited-social-insurance-contributions/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "credited_social_insurance_contributions",
+    "title": "Credited social insurance contributions",
+    "authority_tier": "guidance",
+    "chars": 13095
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/homecaring-periods-scheme/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "homecaring_periods_scheme",
+    "title": "HomeCaring Periods Scheme",
+    "authority_tier": "guidance",
+    "chars": 8860
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/homemakers-scheme/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "homemakers_scheme",
+    "title": "Homemaker's Scheme",
+    "authority_tier": "guidance",
+    "chars": 7922
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/long-term-carers-contributions/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "long_term_carers_contributions",
+    "title": "Long-Term Carers Contributions",
+    "authority_tier": "guidance",
+    "chars": 5494
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/part-time-work-and-social-insurance-prsi/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "part_time_work_and_social_insurance_prsi",
+    "title": "Part-time work and social insurance (PRSI)",
+    "authority_tier": "guidance",
+    "chars": 7246
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/paying-social-insurance/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "paying_social_insurance",
+    "title": "Paying social insurance (PRSI)",
+    "authority_tier": "guidance",
+    "chars": 11826
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/social-insurance-classes/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "social_insurance_classes",
+    "title": "Social insurance classes",
+    "authority_tier": "guidance",
+    "chars": 10383
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/social-insurance/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "social_insurance",
+    "title": "Social insurance",
+    "authority_tier": "guidance",
+    "chars": 13076
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-insurance-prsi/voluntary-prsi-contributions/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "voluntary_prsi_contributions",
+    "title": "Voluntary social insurance contributions",
+    "authority_tier": "guidance",
+    "chars": 6156
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-welfare-appeals/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "social_welfare_appeals",
+    "title": "How to appeal a social welfare decision",
+    "authority_tier": "guidance",
+    "chars": 18299
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-welfare-system-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "social_welfare",
+    "subtopic": "social_welfare_system_in_ireland",
+    "title": "Social welfare system in Ireland",
+    "authority_tier": "guidance",
+    "chars": 6436
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/capital-taxes/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "capital_taxes",
+    "title": "Capital taxes",
+    "authority_tier": "guidance",
+    "chars": 1062
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/capital-taxes/capital-acquisitions-tax-exemptions-and-reliefs/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "capital_acquisitions_tax_exemptions_and_reliefs",
+    "title": "Capital Acquisitions Tax exemptions and reliefs",
+    "authority_tier": "guidance",
+    "chars": 7373
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/capital-taxes/capital-acquisitions-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "capital_acquisitions_tax",
+    "title": "Capital Acquisitions Tax",
+    "authority_tier": "guidance",
+    "chars": 10154
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/capital-taxes/capital-gains-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "capital_gains_tax",
+    "title": "Capital Gains Tax",
+    "authority_tier": "guidance",
+    "chars": 8176
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/capital-taxes/capital-taxes-following-separation-or-divorce/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "capital_taxes_following_separation_or_divorce",
+    "title": "Capital taxes following separation, divorce or dissolution",
+    "authority_tier": "guidance",
+    "chars": 3370
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/duties-and-vat/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "duties_and_vat",
+    "title": "Duties and VAT",
+    "authority_tier": "guidance",
+    "chars": 811
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/duties-and-vat/excise-duties/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "excise_duties",
+    "title": "Excise duties",
+    "authority_tier": "guidance",
+    "chars": 1969
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/duties-and-vat/stamp-duty-on-financial-cards/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "stamp_duty_on_financial_cards",
+    "title": "Stamp duty on financial cards",
+    "authority_tier": "guidance",
+    "chars": 3840
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/duties-and-vat/value-added-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "value_added_tax",
+    "title": "Value Added Tax",
+    "authority_tier": "guidance",
+    "chars": 10353
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/housing-taxes-and-reliefs/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "housing_taxes_and_reliefs",
+    "title": "Housing taxes and reliefs",
+    "authority_tier": "guidance",
+    "chars": 2516
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/housing-taxes-and-reliefs/deferring-local-property-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "deferring_local_property_tax",
+    "title": "Deferring payment of the Local Property Tax",
+    "authority_tier": "guidance",
+    "chars": 7546
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/housing-taxes-and-reliefs/local-property-tax-exemptions/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "local_property_tax_exemptions",
+    "title": "Exemptions from Local Property Tax",
+    "authority_tier": "guidance",
+    "chars": 5654
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/housing-taxes-and-reliefs/local-property-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "local_property_tax",
+    "title": "Local Property Tax (LPT)",
+    "authority_tier": "guidance",
+    "chars": 9929
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/housing-taxes-and-reliefs/paying-local-property-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "paying_local_property_tax",
+    "title": "How to pay your Local Property Tax",
+    "authority_tier": "guidance",
+    "chars": 7738
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/housing-taxes-and-reliefs/rent-tax-credit/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "rent_tax_credit",
+    "title": "Rent Tax Credit",
+    "authority_tier": "guidance",
+    "chars": 5744
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/housing-taxes-and-reliefs/residential-zoned-land-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "residential_zoned_land_tax",
+    "title": "Residential Zoned Land Tax (RZLT)",
+    "authority_tier": "guidance",
+    "chars": 4292
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/housing-taxes-and-reliefs/vacant-homes-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "vacant_homes_tax",
+    "title": "Vacant Homes Tax",
+    "authority_tier": "guidance",
+    "chars": 4040
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/housing-taxes-and-reliefs/valuing-property-for-lpt/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "valuing_property_for_lpt",
+    "title": "How to value your property for Local Property Tax",
+    "authority_tier": "guidance",
+    "chars": 6918
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "income_tax_credits_and_reliefs",
+    "title": "Income tax credits and reliefs",
+    "authority_tier": "guidance",
+    "chars": 2583
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/deeds-of-covenant/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "deeds_of_covenant",
+    "title": "Deeds of covenant",
+    "authority_tier": "guidance",
+    "chars": 5123
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/employment-tax-credits-and-reliefs/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "employment_tax_credits_and_reliefs",
+    "title": "Employment tax credits and reliefs",
+    "authority_tier": "guidance",
+    "chars": 5053
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/eworking-and-tax-relief/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "eworking_and_tax_relief",
+    "title": "Working from home and tax relief",
+    "authority_tier": "guidance",
+    "chars": 6340
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/home-carers-tax-credit/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "home_carers_tax_credit",
+    "title": "Home Carer Tax Credit",
+    "authority_tier": "guidance",
+    "chars": 4985
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/housing-tax-credits-and-reliefs/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "housing_tax_credits_and_reliefs",
+    "title": "Housing tax credits and reliefs",
+    "authority_tier": "guidance",
+    "chars": 5139
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/income-tax-credits-and-reliefs-following-a-death/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "income_tax_credits_and_reliefs_following_a_death",
+    "title": "Income tax credits and reliefs following a death",
+    "authority_tier": "guidance",
+    "chars": 7015
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/introduction-to-income-tax-credits-and-reliefs/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "introduction_to_income_tax_credits_and_reliefs",
+    "title": "Introduction to income tax credits and reliefs",
+    "authority_tier": "guidance",
+    "chars": 7325
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/maintenance-and-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "maintenance_and_tax",
+    "title": "Maintenance payments and tax",
+    "authority_tier": "guidance",
+    "chars": 5248
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/older-peoples-tax-credits-and-reliefs/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "older_peoples_tax_credits_and_reliefs",
+    "title": "Tax credits and reliefs for people over 65",
+    "authority_tier": "guidance",
+    "chars": 7874
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/separation-divorce-and-tax-reliefs/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "separation_divorce_and_tax_reliefs",
+    "title": "Separation, divorce and income tax",
+    "authority_tier": "guidance",
+    "chars": 3423
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/single-person-child-carer-tax-credit/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "single_person_child_carer_tax_credit",
+    "title": "Single Person Child Carer Credit",
+    "authority_tier": "guidance",
+    "chars": 6741
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax-credits-and-reliefs/taxation-and-medical-expenses/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "taxation_and_medical_expenses",
+    "title": "Tax relief on medical expenses",
+    "authority_tier": "guidance",
+    "chars": 10892
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "income_tax",
+    "title": "Income tax",
+    "authority_tier": "guidance",
+    "chars": 2739
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/artists-exemption-from-income-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "artists_exemption_from_income_tax",
+    "title": "Artists' exemption from income tax",
+    "authority_tier": "guidance",
+    "chars": 7241
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/case-study-calculating-your-income-tax-case-studies/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "case_study_calculating_your_income_tax_case_studies",
+    "title": "Case study: Calculating your income tax",
+    "authority_tier": "guidance",
+    "chars": 3783
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/how-to-review-your-paye-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "how_to_review_your_paye_tax",
+    "title": "How to review your tax for PAYE taxpayers",
+    "authority_tier": "guidance",
+    "chars": 8066
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/how-your-tax-is-calculated/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "how_your_tax_is_calculated",
+    "title": "How your income tax is calculated",
+    "authority_tier": "guidance",
+    "chars": 13680
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/online-services-for-paye-taxpayers/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "online_services_for_paye_taxpayers",
+    "title": "Online services for PAYE taxpayers",
+    "authority_tier": "guidance",
+    "chars": 3679
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/paye-overpayments-and-underpayments-of-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "paye_overpayments_and_underpayments_of_tax",
+    "title": "PAYE overpayments and underpayments of tax",
+    "authority_tier": "guidance",
+    "chars": 4381
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/tax-and-cohabiting-couples/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "tax_and_cohabiting_couples",
+    "title": "Taxation of cohabiting couples",
+    "authority_tier": "guidance",
+    "chars": 3202
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/tax-refund-when-unemployed-or-out-of-work-sick/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "tax_refund_when_unemployed_or_out_of_work_sick",
+    "title": "Tax refund if you are unemployed or out of work sick",
+    "authority_tier": "guidance",
+    "chars": 3599
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/tax-return-non-paye-income/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "tax_return_non_paye_income",
+    "title": "Tax on income that is not from your employer",
+    "authority_tier": "guidance",
+    "chars": 5658
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/taxation-of-benefits-from-employment/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "taxation_of_benefits_from_employment",
+    "title": "Taxation of benefits from employment",
+    "authority_tier": "guidance",
+    "chars": 3223
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/taxation-of-married-people/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "taxation_of_married_people",
+    "title": "Taxation of married people and civil partners",
+    "authority_tier": "guidance",
+    "chars": 8632
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/taxation-of-self-employed-people/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "taxation_of_self_employed_people",
+    "title": "Tax for self-employed people",
+    "authority_tier": "guidance",
+    "chars": 6100
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/universal-social-charge/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "universal_social_charge",
+    "title": "Universal Social Charge (USC)",
+    "authority_tier": "guidance",
+    "chars": 8693
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/motor-carbon-other-taxes/carbon-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "carbon_tax",
+    "title": "Carbon tax",
+    "authority_tier": "guidance",
+    "chars": 1971
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/moving-country-and-taxation/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "moving_country_and_taxation",
+    "title": "Moving country and taxation",
+    "authority_tier": "guidance",
+    "chars": 740
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/moving-country-and-taxation/tax-residence-and-domicile-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "tax_residence_and_domicile_in_ireland",
+    "title": "Tax residence and domicile in Ireland",
+    "authority_tier": "guidance",
+    "chars": 5384
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/tax-clearance-certificate/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "tax_clearance_certificate",
+    "title": "Tax Clearance Certificates",
+    "authority_tier": "guidance",
+    "chars": 3543
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/tax-credits-and-reliefs-for-people-with-disabilities/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "tax_credits_and_reliefs_for_people_with_disabilities",
+    "title": "Tax credits and reliefs for people with disabilities",
+    "authority_tier": "guidance",
+    "chars": 2248
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/tax-credits-and-reliefs-for-people-with-disabilities/dependent-relative-tax-credit/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "dependent_relative_tax_credit",
+    "title": "Dependent Relative Tax Credit",
+    "authority_tier": "guidance",
+    "chars": 4461
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/tax-credits-and-reliefs-for-people-with-disabilities/incapacitated-child-tax-credit/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "incapacitated_child_tax_credit",
+    "title": "Incapacitated Child Tax Credit",
+    "authority_tier": "guidance",
+    "chars": 3004
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/tax-credits-and-reliefs-for-people-with-disabilities/tax-relief-for-employing-a-home-carer/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "tax_relief_for_employing_a_home_carer",
+    "title": "Tax relief on employing a home carer",
+    "authority_tier": "guidance",
+    "chars": 3648
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/tax-credits-and-reliefs-for-people-with-disabilities/tax-relief-on-assistance-dogs/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "tax_relief_on_assistance_dogs",
+    "title": "Tax relief on assistance dogs",
+    "authority_tier": "guidance",
+    "chars": 3202
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/tax-credits-and-reliefs-for-people-with-disabilities/tax-reliefs-for-people-with-a-visual-impairment/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "tax_reliefs_for_people_with_a_visual_impairment",
+    "title": "Tax reliefs for people with a vision impairment",
+    "authority_tier": "guidance",
+    "chars": 4406
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/tax-credits-and-reliefs-for-people-with-disabilities/trust-funds-for-permanently-incapacitated-people/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "trust_funds_for_permanently_incapacitated_people",
+    "title": "Trust funds for people that are permanently incapacitated",
+    "authority_tier": "guidance",
+    "chars": 4176
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/tax-credits-and-reliefs-for-people-with-disabilities/vat-refunds-on-aids-and-appliances-used-by-people-with-disabilities/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "vat_refunds_on_aids_and_appliances_used_by_people_with_disabilities",
+    "title": "VAT refunds on aids and appliances for people with disabilities",
+    "authority_tier": "guidance",
+    "chars": 3908
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/tax-on-savings-and-investments/deposit-interest-retention-tax/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "deposit_interest_retention_tax",
+    "title": "Deposit Interest Retention Tax (DIRT)",
+    "authority_tier": "guidance",
+    "chars": 5123
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/money-and-tax/tax/tax-on-savings-and-investments/employee-share-option-schemes/",
+    "provider": "citizensinformation",
+    "topic": "tax",
+    "subtopic": "employee_share_option_schemes",
+    "title": "Employee share schemes",
+    "authority_tier": "guidance",
+    "chars": 4775
+  },
+  {
+    "url": "http://about.leapcard.ie/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "overview",
+    "title": "Leap Card - Home",
+    "authority_tier": "operational",
+    "chars": 1060
+  },
+  {
+    "url": "http://about.leapcard.ie/bus-eireann",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "bus_eireann",
+    "title": "Using Leap Card on Bus Éireann",
+    "authority_tier": "operational",
+    "chars": 1253
+  },
+  {
+    "url": "http://about.leapcard.ie/dart",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "dart",
+    "title": "Using your TFI Leap Card on DART & Commuter Rail",
+    "authority_tier": "operational",
+    "chars": 1642
+  },
+  {
+    "url": "http://about.leapcard.ie/dublin-bus",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "dublin_bus",
+    "title": "Using TFI Leap Card on Dublin Bus",
+    "authority_tier": "operational",
+    "chars": 1235
+  },
+  {
+    "url": "http://about.leapcard.ie/faqs",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "faqs",
+    "title": "Do You Have a Question?",
+    "authority_tier": "operational",
+    "chars": 11510
+  },
+  {
+    "url": "http://about.leapcard.ie/features-and-services/card-replacement-refunds",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "card_replacement_refunds",
+    "title": "Card Refund & Replacement",
+    "authority_tier": "operational",
+    "chars": 2782
+  },
+  {
+    "url": "http://about.leapcard.ie/go-ahead-ireland",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "go_ahead_ireland",
+    "title": "Go-Ahead Ireland",
+    "authority_tier": "operational",
+    "chars": 960
+  },
+  {
+    "url": "http://about.leapcard.ie/leap-card-athlone/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_card_athlone",
+    "title": "TFI Leap Card in Athlone",
+    "authority_tier": "operational",
+    "chars": 1723
+  },
+  {
+    "url": "http://about.leapcard.ie/leap-card-in/cork/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "cork",
+    "title": "TFI Leap Card Cork",
+    "authority_tier": "operational",
+    "chars": 2830
+  },
+  {
+    "url": "http://about.leapcard.ie/leap-card-in/dublin/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "dublin",
+    "title": "TFI Leap Card Dublin",
+    "authority_tier": "operational",
+    "chars": 5048
+  },
+  {
+    "url": "http://about.leapcard.ie/leap-card-in/galway/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "galway",
+    "title": "TFI Leap Card Galway",
+    "authority_tier": "operational",
+    "chars": 2591
+  },
+  {
+    "url": "http://about.leapcard.ie/leap-card-in/limerick/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "limerick",
+    "title": "TFI Leap Card Limerick",
+    "authority_tier": "operational",
+    "chars": 2176
+  },
+  {
+    "url": "http://about.leapcard.ie/leap-card-in/waterford/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "waterford",
+    "title": "TFI Leap Card Waterford",
+    "authority_tier": "operational",
+    "chars": 2070
+  },
+  {
+    "url": "http://about.leapcard.ie/leap-card-sligo/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_card_sligo",
+    "title": "TFI Leap Card in Sligo",
+    "authority_tier": "operational",
+    "chars": 2382
+  },
+  {
+    "url": "http://about.leapcard.ie/leap-top-up-app",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_top_up_app",
+    "title": "Leap Top-Up app",
+    "authority_tier": "operational",
+    "chars": 10913
+  },
+  {
+    "url": "http://about.leapcard.ie/leap-visitor-card",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_visitor_card",
+    "title": "Leap Visitor Card",
+    "authority_tier": "operational",
+    "chars": 38736
+  },
+  {
+    "url": "http://about.leapcard.ie/leap-visitor-card/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_visitor_card",
+    "title": "Leap Visitor Card",
+    "authority_tier": "operational",
+    "chars": 38736
+  },
+  {
+    "url": "http://about.leapcard.ie/luas",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "luas",
+    "title": "Using TFI Leap Card on Luas",
+    "authority_tier": "operational",
+    "chars": 1068
+  },
+  {
+    "url": "http://about.leapcard.ie/private-operators",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "private_operators",
+    "title": "Using TFI Leap Card with Private Operators",
+    "authority_tier": "operational",
+    "chars": 2843
+  },
+  {
+    "url": "http://about.leapcard.ie/q-a/faqs",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "faqs",
+    "title": "Do You Have a Question?",
+    "authority_tier": "operational",
+    "chars": 11510
+  },
+  {
+    "url": "http://about.leapcard.ie/young-adult-and-student-card-launch",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "young_adult_and_student_card_launch",
+    "title": "Young Adult and Student Card",
+    "authority_tier": "operational",
+    "chars": 5191
+  },
+  {
+    "url": "https://about.leapcard.ie/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "overview",
+    "title": "Leap Card - Home",
+    "authority_tier": "operational",
+    "chars": 1060
+  },
+  {
+    "url": "https://about.leapcard.ie/about",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "about",
+    "title": "About TFI Leap Card",
+    "authority_tier": "operational",
+    "chars": 2180
+  },
+  {
+    "url": "https://about.leapcard.ie/accepted-non-standard-documents",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "accepted_non_standard_documents",
+    "title": "Accepted non-standard documents",
+    "authority_tier": "operational",
+    "chars": 1408
+  },
+  {
+    "url": "https://about.leapcard.ie/autotop-up",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "autotop_up",
+    "title": "Auto Top-Up",
+    "authority_tier": "operational",
+    "chars": 7562
+  },
+  {
+    "url": "https://about.leapcard.ie/bus-eireann",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "bus_eireann",
+    "title": "Using Leap Card on Bus Éireann",
+    "authority_tier": "operational",
+    "chars": 1253
+  },
+  {
+    "url": "https://about.leapcard.ie/card-replacement-refunds",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "card_replacement_refunds",
+    "title": "Card Refund & Replacement",
+    "authority_tier": "operational",
+    "chars": 2782
+  },
+  {
+    "url": "https://about.leapcard.ie/cork",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "cork",
+    "title": "TFI Leap Card Cork",
+    "authority_tier": "operational",
+    "chars": 2830
+  },
+  {
+    "url": "https://about.leapcard.ie/dart",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "dart",
+    "title": "Using your TFI Leap Card on DART & Commuter Rail",
+    "authority_tier": "operational",
+    "chars": 1642
+  },
+  {
+    "url": "https://about.leapcard.ie/drogheda",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "drogheda",
+    "title": "TFI Leap Card Drogheda",
+    "authority_tier": "operational",
+    "chars": 1196
+  },
+  {
+    "url": "https://about.leapcard.ie/dublin",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "dublin",
+    "title": "TFI Leap Card Dublin",
+    "authority_tier": "operational",
+    "chars": 5048
+  },
+  {
+    "url": "https://about.leapcard.ie/dublin-bus",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "dublin_bus",
+    "title": "Using TFI Leap Card on Dublin Bus",
+    "authority_tier": "operational",
+    "chars": 1235
+  },
+  {
+    "url": "https://about.leapcard.ie/faqs",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "faqs",
+    "title": "Do You Have a Question?",
+    "authority_tier": "operational",
+    "chars": 11510
+  },
+  {
+    "url": "https://about.leapcard.ie/fare-capping",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "fare_capping",
+    "title": "Fare Capping",
+    "authority_tier": "operational",
+    "chars": 3310
+  },
+  {
+    "url": "https://about.leapcard.ie/features-and-services/card-replacement-refunds",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "card_replacement_refunds",
+    "title": "Card Refund & Replacement",
+    "authority_tier": "operational",
+    "chars": 2782
+  },
+  {
+    "url": "https://about.leapcard.ie/galway",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "galway",
+    "title": "TFI Leap Card Galway",
+    "authority_tier": "operational",
+    "chars": 2591
+  },
+  {
+    "url": "https://about.leapcard.ie/go-ahead-ireland",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "go_ahead_ireland",
+    "title": "Go-Ahead Ireland",
+    "authority_tier": "operational",
+    "chars": 960
+  },
+  {
+    "url": "https://about.leapcard.ie/how-to-renew-your-card",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "how_to_renew_your_card",
+    "title": "How to renew your card",
+    "authority_tier": "operational",
+    "chars": 3163
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-card-athlone",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_card_athlone",
+    "title": "TFI Leap Card in Athlone",
+    "authority_tier": "operational",
+    "chars": 1723
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-card-athlone/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_card_athlone",
+    "title": "TFI Leap Card in Athlone",
+    "authority_tier": "operational",
+    "chars": 1723
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-card-in/cork/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "cork",
+    "title": "TFI Leap Card Cork",
+    "authority_tier": "operational",
+    "chars": 2830
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-card-in/dublin/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "dublin",
+    "title": "TFI Leap Card Dublin",
+    "authority_tier": "operational",
+    "chars": 5048
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-card-in/galway/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "galway",
+    "title": "TFI Leap Card Galway",
+    "authority_tier": "operational",
+    "chars": 2591
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-card-in/limerick/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "limerick",
+    "title": "TFI Leap Card Limerick",
+    "authority_tier": "operational",
+    "chars": 2176
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-card-in/waterford/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "waterford",
+    "title": "TFI Leap Card Waterford",
+    "authority_tier": "operational",
+    "chars": 2070
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-card-sligo",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_card_sligo",
+    "title": "TFI Leap Card in Sligo",
+    "authority_tier": "operational",
+    "chars": 2382
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-card-sligo/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_card_sligo",
+    "title": "TFI Leap Card in Sligo",
+    "authority_tier": "operational",
+    "chars": 2382
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-top-up-app",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_top_up_app",
+    "title": "Leap Top-Up app",
+    "authority_tier": "operational",
+    "chars": 10913
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-visitor-card",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_visitor_card",
+    "title": "Leap Visitor Card",
+    "authority_tier": "operational",
+    "chars": 38736
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-visitor-card/",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_visitor_card",
+    "title": "Leap Visitor Card",
+    "authority_tier": "operational",
+    "chars": 38736
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-visitor-card/cartao-leap-visitor-card-portuguese",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "cartao_leap_visitor_card_portuguese",
+    "title": "Cartão Leap Visitor Card (Portuguese)",
+    "authority_tier": "operational",
+    "chars": 5715
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-visitor-card/gastekarte-leap-visitor-card-deutsch",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "gastekarte_leap_visitor_card_deutsch",
+    "title": "Gästekarte Leap Visitor Card (Deutsch)",
+    "authority_tier": "operational",
+    "chars": 5868
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-visitor-card/karta-leap-visitor-card",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "karta_leap_visitor_card",
+    "title": "Karta Leap Visitor Card (Polski)",
+    "authority_tier": "operational",
+    "chars": 5588
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-visitor-card/leap-visitor-card",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_visitor_card",
+    "title": "Leap Visitor Card (Español)",
+    "authority_tier": "operational",
+    "chars": 6119
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-visitor-card/leap-visitor-card-3",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_visitor_card_3",
+    "title": "Leap Visitor Card (Italiano)",
+    "authority_tier": "operational",
+    "chars": 5658
+  },
+  {
+    "url": "https://about.leapcard.ie/leap-visitor-card/leap-visitor-card-francais",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "leap_visitor_card_francais",
+    "title": "Leap Visitor Card (Français)",
+    "authority_tier": "operational",
+    "chars": 5994
+  },
+  {
+    "url": "https://about.leapcard.ie/limerick",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "limerick",
+    "title": "TFI Leap Card Limerick",
+    "authority_tier": "operational",
+    "chars": 2176
+  },
+  {
+    "url": "https://about.leapcard.ie/luas",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "luas",
+    "title": "Using TFI Leap Card on Luas",
+    "authority_tier": "operational",
+    "chars": 1068
+  },
+  {
+    "url": "https://about.leapcard.ie/private-operators",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "private_operators",
+    "title": "Using TFI Leap Card with Private Operators",
+    "authority_tier": "operational",
+    "chars": 2843
+  },
+  {
+    "url": "https://about.leapcard.ie/purchase-in-irish",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "purchase_in_irish",
+    "title": "Ceannach as Gaeilge",
+    "authority_tier": "operational",
+    "chars": 1111
+  },
+  {
+    "url": "https://about.leapcard.ie/route-139-naas-to-blanchardstown",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "route_139_naas_to_blanchardstown",
+    "title": "Route 139 Naas to Blanchardstown",
+    "authority_tier": "operational",
+    "chars": 700
+  },
+  {
+    "url": "https://about.leapcard.ie/terms-and-conditions",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "terms_and_conditions",
+    "title": "Terms and Conditions",
+    "authority_tier": "operational",
+    "chars": 38646
+  },
+  {
+    "url": "https://about.leapcard.ie/tfi-90-minute-fare",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "tfi_90_minute_fare",
+    "title": "TFI 90 Minute Fare",
+    "authority_tier": "operational",
+    "chars": 2634
+  },
+  {
+    "url": "https://about.leapcard.ie/tfi-leap-card-carlow",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "tfi_leap_card_carlow",
+    "title": "TFI Leap Card Carlow",
+    "authority_tier": "operational",
+    "chars": 1396
+  },
+  {
+    "url": "https://about.leapcard.ie/tfi-leap-card-clonmel",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "tfi_leap_card_clonmel",
+    "title": "TFI Leap Card Clonmel",
+    "authority_tier": "operational",
+    "chars": 1146
+  },
+  {
+    "url": "https://about.leapcard.ie/tfi-leap-card-kilkenny",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "tfi_leap_card_kilkenny",
+    "title": "TFI Leap Card Kilkenny",
+    "authority_tier": "operational",
+    "chars": 1837
+  },
+  {
+    "url": "https://about.leapcard.ie/tfi-leap-card-mullingar",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "tfi_leap_card_mullingar",
+    "title": "TFI Leap Card Mullingar",
+    "authority_tier": "operational",
+    "chars": 1597
+  },
+  {
+    "url": "https://about.leapcard.ie/tfi-leap-card-navan",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "tfi_leap_card_navan",
+    "title": "TFI Leap card Navan",
+    "authority_tier": "operational",
+    "chars": 1812
+  },
+  {
+    "url": "https://about.leapcard.ie/tfi-leap-card-portlaoise",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "tfi_leap_card_portlaoise",
+    "title": "TFI Leap Card Portlaoise",
+    "authority_tier": "operational",
+    "chars": 1508
+  },
+  {
+    "url": "https://about.leapcard.ie/top-tips",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "top_tips",
+    "title": "Top Tips",
+    "authority_tier": "operational",
+    "chars": 1672
+  },
+  {
+    "url": "https://about.leapcard.ie/waterford",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "waterford",
+    "title": "TFI Leap Card Waterford",
+    "authority_tier": "operational",
+    "chars": 2070
+  },
+  {
+    "url": "https://about.leapcard.ie/wp-content/uploads/2015/01/Wexford-Route.png",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "Wexford_Route.png",
+    "title": "Untitled document",
+    "authority_tier": "operational",
+    "chars": 748398
+  },
+  {
+    "url": "https://about.leapcard.ie/wp-content/uploads/2025/10/Limerick_Leap_Card_A4_Map-ENGLISH-2048x1448-1.png",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "Limerick_Leap_Card_A4_Map_ENGLISH_2048x1448_1.png",
+    "title": "Untitled document",
+    "authority_tier": "operational",
+    "chars": 531362
+  },
+  {
+    "url": "https://about.leapcard.ie/wp-content/uploads/2025/11/Galway_Leap_Card_A4_Map-ENGLISH-scaled.png",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "Galway_Leap_Card_A4_Map_ENGLISH_scaled.png",
+    "title": "Untitled document",
+    "authority_tier": "operational",
+    "chars": 260458
+  },
+  {
+    "url": "https://about.leapcard.ie/wp-content/uploads/2025/11/waterford-a4-english-2048x1448-1.png",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "waterford_a4_english_2048x1448_1.png",
+    "title": "Untitled document",
+    "authority_tier": "operational",
+    "chars": 332221
+  },
+  {
+    "url": "https://about.leapcard.ie/wp-content/uploads/2025/12/Sligo-Day-Leap-Card-A4-Map-ENGLISH-2048x1448-1.png",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "Sligo_Day_Leap_Card_A4_Map_ENGLISH_2048x1448_1.png",
+    "title": "Untitled document",
+    "authority_tier": "operational",
+    "chars": 211406
+  },
+  {
+    "url": "https://about.leapcard.ie/wp-content/uploads/2025/12/Sligo-Evening-Leap-Card-A4-Map-ENGLISH-2048x1448-1.png",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "Sligo_Evening_Leap_Card_A4_Map_ENGLISH_2048x1448_1.png",
+    "title": "Untitled document",
+    "authority_tier": "operational",
+    "chars": 199645
+  },
+  {
+    "url": "https://about.leapcard.ie/young-adult-and-student-card-launch",
+    "provider": "leapcard",
+    "topic": "transport",
+    "subtopic": "young_adult_and_student_card_launch",
+    "title": "Young Adult and Student Card",
+    "authority_tier": "operational",
+    "chars": 5191
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "driver_licensing",
+    "title": "Driver licensing",
+    "authority_tier": "guidance",
+    "chars": 2418
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/categories-of-motor-vehicles-and-minimum-age-of-drivers-in-ireland/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "categories_of_motor_vehicles_and_minimum_age_of_drivers_in_ireland",
+    "title": "Categories of motor vehicles and minimum age of drivers",
+    "authority_tier": "guidance",
+    "chars": 6877
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/exchanging-foreign-driving-permit/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "exchanging_foreign_driving_permit",
+    "title": "Foreign driving licences in Ireland",
+    "authority_tier": "guidance",
+    "chars": 8247
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/full-driving-licence/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "full_driving_licence",
+    "title": "Applying for a driving licence",
+    "authority_tier": "guidance",
+    "chars": 10403
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/how-do-i-add-a-category-to-my-irish-driving-licence/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "how_do_i_add_a_category_to_my_irish_driving_licence",
+    "title": "How do I add a category to my Irish driving licence?",
+    "authority_tier": "guidance",
+    "chars": 3910
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/how-to-renew-a-driving-learner-permit/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "how_to_renew_a_driving_learner_permit",
+    "title": "How to renew a driving learner permit",
+    "authority_tier": "guidance",
+    "chars": 4917
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/international-driving-permit/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "international_driving_permit",
+    "title": "International Driving Permit",
+    "authority_tier": "guidance",
+    "chars": 4450
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/learner-driving-permits-for-cars-and-work-vehicles/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "learner_driving_permits_for_cars_and_work_vehicles",
+    "title": "How do I apply for a Learner’s permit?",
+    "authority_tier": "guidance",
+    "chars": 5818
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/learner-permit-rules-for-specific-vehicle-categories/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "learner_permit_rules_for_specific_vehicle_categories",
+    "title": "Learner permit rules for specific vehicle categories",
+    "authority_tier": "guidance",
+    "chars": 9672
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/learning-to-drive/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "learning_to_drive",
+    "title": "Steps to learning to drive",
+    "authority_tier": "guidance",
+    "chars": 12028
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/renewing-a-full-driving-licence/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "renewing_a_full_driving_licence",
+    "title": "How to renew your driving licence",
+    "authority_tier": "guidance",
+    "chars": 7631
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/replacing-a-lost-or-stolen-irish-driving-licence/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "replacing_a_lost_or_stolen_irish_driving_licence",
+    "title": "Replacing a lost, stolen or damaged driving licence or learner permit",
+    "authority_tier": "guidance",
+    "chars": 3589
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/steps-to-becoming-a-professional-bus-or-truck-driver/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "steps_to_becoming_a_professional_bus_or_truck_driver",
+    "title": "Steps to becoming a professional bus or truck driver",
+    "authority_tier": "guidance",
+    "chars": 8503
+  },
+  {
+    "url": "https://www.citizensinformation.ie/en/travel-and-recreation/motoring/driver-licensing/updating-your-driving-licence-or-learner-permit/",
+    "provider": "citizensinformation",
+    "topic": "transport",
+    "subtopic": "updating_your_driving_licence_or_learner_permit",
+    "title": "Updating your personal details on your driving licence or learner permit",
+    "authority_tier": "guidance",
+    "chars": 7801
+  },
+  {
+    "url": "https://vetting.garda.ie/",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "overview",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 1071
+  },
+  {
+    "url": "https://vetting.garda.ie/AboutUs/WhatWeDo",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "WhatWeDo",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 750
+  },
+  {
+    "url": "https://vetting.garda.ie/AboutUs/WhoWeAre",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "WhoWeAre",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 713
+  },
+  {
+    "url": "https://vetting.garda.ie/Application/About",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "About",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 2906
+  },
+  {
+    "url": "https://vetting.garda.ie/Application/Invitation",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "Invitation",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 1407
+  },
+  {
+    "url": "https://vetting.garda.ie/Application/Paper",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "Paper",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 920
+  },
+  {
+    "url": "https://vetting.garda.ie/Disputes/Appeal",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "Appeal",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 2388
+  },
+  {
+    "url": "https://vetting.garda.ie/Disputes/Disclosure",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "Disclosure",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 2212
+  },
+  {
+    "url": "https://vetting.garda.ie/Help/FAQ",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "FAQ",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 31105
+  },
+  {
+    "url": "https://vetting.garda.ie/Links",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "Links",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 35136
+  },
+  {
+    "url": "https://vetting.garda.ie/Links/Security",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "Security",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 2074
+  },
+  {
+    "url": "https://vetting.garda.ie/News/News",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "News",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 2214
+  },
+  {
+    "url": "https://vetting.garda.ie/RegisteredOrganisation/HowToApply",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "HowToApply",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 763
+  },
+  {
+    "url": "https://vetting.garda.ie/RegisteredOrganisation/Relevant",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "Relevant",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 2336
+  },
+  {
+    "url": "https://vetting.garda.ie/VettingProcedure/HowIsVettingConducted",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "HowIsVettingConducted",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 1326
+  },
+  {
+    "url": "https://vetting.garda.ie/VettingProcedure/NonAct",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "NonAct",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 1396
+  },
+  {
+    "url": "https://vetting.garda.ie/VettingProcedure/SpecifiedInformation",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "SpecifiedInformation",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 3582
+  },
+  {
+    "url": "https://vetting.garda.ie/VettingProcedure/WhatIsDisclosed",
+    "provider": "garda",
+    "topic": "vetting",
+    "subtopic": "WhatIsDisclosed",
+    "title": "National Vetting Bureau",
+    "authority_tier": "official",
+    "chars": 3679
+  }
+]

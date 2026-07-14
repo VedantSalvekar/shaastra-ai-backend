@@ -22,8 +22,8 @@ def on_startup() -> None:
         from app.db.base import Base
         Base.metadata.create_all(bind=engine)
         print("[INFO] Database initialized successfully")
-    except ImportError as e:
-        print(f"[INFO] Database not configured (missing psycopg2). Skipping DB initialization.")
+    except ImportError:
+        print("[INFO] Database not configured (missing psycopg2). Skipping DB initialization.")
     except Exception as e:
         print(f"[WARN] Database initialization failed: {e}")
 

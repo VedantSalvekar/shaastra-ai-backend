@@ -11,14 +11,16 @@ def get_qdrant_client() -> QdrantClient:
     )
 
 def ensure_collection(collection_name: str) -> None:
+    """Create the collection with the correct vector config if it doesn't exist."""
     settings = get_settings()
     client = get_qdrant_client()
 
     collections = client.get_collections().collections
     existing = {c.name for c in collections}
 
-    if collection_name not in existing:
-        return 
+    if collection_name in existing:
+        return
+
     try:
         client.create_collection(
             collection_name=collection_name,
@@ -27,8 +29,9 @@ def ensure_collection(collection_name: str) -> None:
                 distance=Distance.COSINE,
             ),
         )
+        print(f"[INFO] Created Qdrant collection: {collection_name}")
     except UnexpectedResponse as e:
-        
+        # Another request may have created it concurrently.
         if "already exists" in str(e):
             return
-        raise 
+        raise

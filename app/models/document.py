@@ -27,6 +27,10 @@ class Document(Base):
     mime_type: Mapped[str | None] = mapped_column(String(128), nullable=True)
     size_bytes: Mapped[int | None] = mapped_column(BigInteger, nullable=True)
 
+    # Persisted extracted text so vectors can be rebuilt in Qdrant without the
+    # user having to re-upload the original file (Qdrant is not the source of truth).
+    extracted_text: Mapped[str | None] = mapped_column(Text, nullable=True)
+
     status: Mapped[DocumentStatus] = mapped_column(
         Enum(DocumentStatus, name="document_status"),
         nullable=False,
