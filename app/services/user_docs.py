@@ -167,3 +167,29 @@ def reindex_all_user_documents(db: Session, user_id: int) -> list[UserDocIngestR
         results.append(reindex_user_document(str(doc.id), db=db, user_id=user_id))
     return results
 
+def _qdrant_doc_id_candidates(document_id: str, doc: Document) -> list[str]:
+    doc_uuid = _normalize_doc_uuid(document_id)
+    return list({
+        f"userdoc_{doc_uuid.hex}",
+        f"userdoc_{doc_uuid}",
+        str(doc_uuid),
+        document_id,
+    })
+
+def delete_user_document(document_id: str, db: Session, user_id: int) -> None:
+    doc_uuid = _normalize_doc_uuid(document_id)
+    doc = (
+        db.query(Document)
+        .filter(Document.id == doc_uuid, Document.user_id == user_id)
+        .first()
+    )
+    if doc is None: 
+        raise ValueError("Document not found for this user.")
+    for qdrant_doc_id in _qdrant_doc_id_candidates(document_id, doc):
+        try:
+            delete_by_doc_id("user-documents", qdrant_doc_id)
+        except Exception as e:
+            print(f"[WARN] Failed to delete Qdrant chunks for user doc {qdrant_doc_id}: {e}")
+    
+    db.delete(doc)
+    db.commit()
