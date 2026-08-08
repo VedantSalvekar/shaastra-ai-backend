@@ -1,15 +1,8 @@
 # app/services/intent_classifier.py
-"""
-This service classifies what the user is asking about.
-It determines whether they want:
-- General legal information (LEGAL_ONLY)
-- Information from their uploaded documents (USER_ONLY)
-- Both (MIXED)
 
-This is the first step in our LangGraph pipeline.
-"""
 
-from openai import OpenAI
+from langfuse import observe
+from langfuse.openai import OpenAI
 from app.schemas.langgraph_state import IntentType
 from app.core.config import settings
 
@@ -33,6 +26,7 @@ def references_uploaded_document(question: str) -> bool:
     return any(phrase in question_lower for phrase in EXPLICIT_USER_DOC_PHRASES)
 
 
+@observe(name="classify_intent")
 def classify_intent(question: str, user_has_docs: bool, conversation_history: list[dict] = None) -> IntentType:
     """
     Determines what type of question the user is asking.

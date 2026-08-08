@@ -1,7 +1,17 @@
 import os
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api import health, rag, user_docs
+from app.core.langfuse_client import flush_langfuse, init_langfuse
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    init_langfuse()
+    yield
+    flush_langfuse()
 
 origins = os.getenv(
     "CORS_ORIGINS",
@@ -12,7 +22,8 @@ origins = os.getenv(
 app=FastAPI(
     title="Shaastra AI",
     description="RAG-based AI assistant with legal knowledge and user document management.",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan,
 )
 
 # Schema is managed by Alembic (see Dockerfile CMD). Do not use create_all here.

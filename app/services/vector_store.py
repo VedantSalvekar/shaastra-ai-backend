@@ -1,9 +1,12 @@
 from typing import List, Dict, Any, Optional
+from langfuse import observe
+from langfuse.langchain import CallbackHandler
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Qdrant as QdrantVectorStore
 from qdrant_client.models import Filter, FieldCondition, MatchValue
 
 from app.core.config import get_settings
+from app.core.langfuse_client import is_langfuse_enabled
 from app.core.qdrant_client import get_qdrant_client, ensure_collection
 from app.schemas.rag import (CollectionName, TextChunkIn, SearchRequest, SearchResultItem, SearchResponse)
 from app.schemas.langgraph_state import RetrievalChunk
@@ -24,8 +27,13 @@ def _get_embeddings() -> OpenAIEmbeddings:
         openai_api_key=settings.openai_api_key,
     )
 
-def index_chunks(collection: CollectionName, chunks: List[TextChunkIn]) -> int:
+def _embed_query(embeddings: OpenAIEmbeddings, query: str) -> list[float]:
+    if is_langfuse_enabled():
+        return embeddings.embed_query(query, config={"callbacks": [CallbackHandler()]})
+    return embeddings.embed_query(query)
 
+@observe(name="index_chunks")
+def index_chunks(collection: CollectionName, chunks: List[TextChunkIn]) -> int:
     if not chunks: 
         return 0
     
@@ -49,6 +57,7 @@ def index_chunks(collection: CollectionName, chunks: List[TextChunkIn]) -> int:
 
     return len(chunks)
 
+@observe(name="semantic_search")
 def search(request: SearchRequest) -> SearchResponse:
     """
     Perform semantic search over the given collection using LangChain's Qdrant wrapper.
@@ -149,6 +158,7 @@ def delete_by_doc_id(collection: CollectionName, doc_id: str) -> None:
     )
 
 
+@observe(name="search_with_filters")
 def search_with_filters(
     collection: CollectionName,
     query: str,
@@ -262,7 +272,7 @@ def search_with_filters(
     # so we need to use the underlying client
     if qdrant_filter:
         # Use the raw Qdrant client for filtered search
-        query_vector = embeddings.embed_query(query)
+        query_vector = _embed_query(embeddings, query)
         search_result = client.search(
             collection_name=qdrant_collection,
             query_vector=query_vector,

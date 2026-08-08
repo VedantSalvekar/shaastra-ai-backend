@@ -11,11 +11,13 @@ Why do we need this?
 This service uses AI to generate these optimized queries.
 """
 
-from openai import OpenAI
+from langfuse import observe
+from langfuse.openai import OpenAI
 from app.schemas.langgraph_state import IntentType
 from app.core.config import settings
 
 
+@observe(name="plan_retrieval")
 def plan_retrieval(question: str, intent: IntentType) -> tuple[str, str]:
     """
     Generates two optimized search queries: one for legal knowledge, one for user documents.

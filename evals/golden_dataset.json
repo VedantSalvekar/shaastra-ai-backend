@@ -1,0 +1,333 @@
+[
+  {
+    "id": "stamp2-work-hours",
+    "question": "How many hours can I work on Stamp 2 as a student?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/studying-in-ireland/immigration-nonEEA-students/"
+    ],
+    "relevant_keywords": ["20 hours", "term time"],
+    "reference_answer": "Non-EEA students on Stamp 2 may work a limited number of hours per week during term time and full-time only during scheduled holiday periods."
+  },
+  {
+    "id": "stamp2-over-20-hours",
+    "question": "Can I work more than 20 hours per week on Stamp 2 during term time?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/studying-in-ireland/immigration-nonEEA-students/"
+    ],
+    "relevant_keywords": ["20 hours", "holiday"],
+    "reference_answer": "No. During term time Stamp 2 holders are limited to the permitted weekly hours; longer hours are only allowed during defined holiday periods."
+  },
+  {
+    "id": "register-irp",
+    "question": "How do I register my immigration permission and get an IRP card?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/rights-of-residence-in-ireland/registration-of-non-eea-nationals-in-ireland/"
+    ],
+    "relevant_keywords": ["Irish Residence Permit", "register"],
+    "reference_answer": "Non-EEA nationals staying longer than 90 days must register their permission and are issued an Irish Residence Permit, which involves an appointment and supporting documents."
+  },
+  {
+    "id": "student-visa-requirements",
+    "question": "What are the requirements to apply for a student visa for Ireland?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/moving-country/visas-for-ireland/student-visas/"
+    ],
+    "relevant_keywords": ["student visa", "course", "insurance"],
+    "reference_answer": "A student visa application generally requires evidence of an accepted course, payment of fees, sufficient funds, medical insurance and intent to return home after study."
+  },
+  {
+    "id": "tourist-visa-rules",
+    "question": "What are the rules for a visa to visit Ireland as a tourist?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/moving-country/visas-for-ireland/visas-for-tourists-visiting-ireland/",
+      "https://www.citizensinformation.ie/en/moving-country/visas-for-ireland/"
+    ],
+    "relevant_keywords": ["visa", "visit"],
+    "reference_answer": "Whether a visa is needed to visit Ireland depends on nationality; visitors must show purpose of visit, means of support and intention to leave at the end of the visit."
+  },
+  {
+    "id": "eu-residence-rights",
+    "question": "What are the residence rights of EU nationals in Ireland?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/rights-of-residence-in-ireland/residence-rights-eu-national/"
+    ],
+    "relevant_keywords": ["EU citizen", "residence"],
+    "reference_answer": "EU nationals have free movement rights and may reside in Ireland, with conditions applying to longer stays and to accompanying family members."
+  },
+  {
+    "id": "non-eea-residence-rights",
+    "question": "What residence rights do non-EEA nationals have in Ireland?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/rights-of-residence-in-ireland/residence-rights-of-non-eea-nationals-in-ireland/"
+    ],
+    "relevant_keywords": ["non-EEA", "permission"],
+    "reference_answer": "Non-EEA nationals need permission to enter and remain, and their rights depend on the type of permission or stamp granted."
+  },
+  {
+    "id": "open-bank-account",
+    "question": "What documents do I need to open a bank account in Ireland?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/money-and-tax/personal-finance/banking/opening-a-bank-account/"
+    ],
+    "relevant_keywords": ["proof of identity", "proof of address"],
+    "reference_answer": "Banks require proof of identity and proof of address; the exact documents accepted vary between banks."
+  },
+  {
+    "id": "pps-number",
+    "question": "What is a PPS number and how do I get one?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/personal-public-service-number/"
+    ],
+    "relevant_keywords": ["PPS number", "Personal Public Service"],
+    "reference_answer": "A Personal Public Service number identifies you for public services and tax; you apply through the relevant department with identity and address evidence."
+  },
+  {
+    "id": "public-services-card",
+    "question": "What is a public services card?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/public-services-card/"
+    ],
+    "relevant_keywords": ["Public Services Card", "identity"],
+    "reference_answer": "The Public Services Card is used to verify identity when accessing certain public services and welfare payments."
+  },
+  {
+    "id": "garda-vetting-basics",
+    "question": "What is Garda vetting and who needs it?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/data-protection-at-work/garda-vetting/",
+      "https://vetting.garda.ie/AboutUs/WhatWeDo"
+    ],
+    "relevant_keywords": ["vetting", "children", "vulnerable"],
+    "reference_answer": "Garda vetting checks criminal records for people working or volunteering with children or vulnerable adults, and is arranged through a registered organisation."
+  },
+  {
+    "id": "garda-vetting-dispute",
+    "question": "How do I dispute a Garda vetting disclosure?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://vetting.garda.ie/Disputes/Disclosure"
+    ],
+    "relevant_keywords": ["dispute", "disclosure"],
+    "reference_answer": "There is a formal process to challenge the accuracy of information in a vetting disclosure, with a further appeal route if the outcome is unsatisfactory."
+  },
+  {
+    "id": "tenant-rights-landlord-ends",
+    "question": "What are my rights as a tenant if my landlord wants me to leave?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/if-your-landlord-wants-you-to-leave/",
+      "https://www.citizensinformation.ie/en/housing/renting-a-home/if-your-landlord-wants-you-to-leave/"
+    ],
+    "relevant_keywords": ["notice of termination", "tenancy"],
+    "reference_answer": "A landlord must have a valid reason and serve a proper written notice of termination with the correct notice period; tenants can dispute invalid notices."
+  },
+  {
+    "id": "notice-to-end-tenancy",
+    "question": "How much notice must be given to end a tenancy?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/if-a-tenant-wants-to-end-a-tenancy/",
+      "https://rtb.ie/renting/ending-a-tenancy/how-a-tenant-can-end-a-tenancy/"
+    ],
+    "relevant_keywords": ["notice period", "notice of termination"],
+    "reference_answer": "Required notice periods depend on how long the tenancy has lasted, and notice must be given in writing with the required details."
+  },
+  {
+    "id": "security-deposit",
+    "question": "What is a security deposit and when must it be returned?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://rtb.ie/renting/rights-responsibilities/security-deposits/"
+    ],
+    "relevant_keywords": ["deposit", "return"],
+    "reference_answer": "A deposit is security against unpaid rent or damage beyond normal wear and tear, and must be returned when the tenancy ends unless lawful deductions apply."
+  },
+  {
+    "id": "rent-increase",
+    "question": "Can my landlord increase my rent and by how much?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/housing/renting-a-home/landlords-rights-and-responsibilities/rent-increases-in-private-rented-housing/",
+      "https://rtb.ie/renting/setting-and-reviewing-private-rents/"
+    ],
+    "relevant_keywords": ["rent review", "rent pressure zone"],
+    "reference_answer": "Rent reviews are restricted in timing and amount, with stricter limits in rent pressure zones, and the landlord must serve a valid rent review notice."
+  },
+  {
+    "id": "rent-tax-credit",
+    "question": "What is the rent tax credit for tenants?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/money-and-tax/tax/housing-taxes-and-reliefs/rent-tax-credit/",
+      "https://www.citizensinformation.ie/en/housing/renting-a-home/help-with-renting/tax-issues-for-renters/"
+    ],
+    "relevant_keywords": ["rent tax credit", "Revenue"],
+    "reference_answer": "Tenants paying for private rented accommodation may claim a rent tax credit through Revenue, subject to conditions and annual limits."
+  },
+  {
+    "id": "minimum-standards-rented",
+    "question": "What are the minimum standards for rented accommodation?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/housing/renting-a-home/tenants-rights-and-responsibilities/minimum-standards-for-rented-homes/",
+      "https://rtb.ie/renting/rights-responsibilities/minimum-standards-for-rental-properties/"
+    ],
+    "relevant_keywords": ["minimum standards", "fire"],
+    "reference_answer": "Rented homes must meet legal minimum standards covering structural condition, heating, ventilation, sanitary facilities, appliances and fire safety."
+  },
+  {
+    "id": "student-specific-accommodation",
+    "question": "What is student specific accommodation?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://rtb.ie/renting/types-of-tenancies/student-specific-accommodation/"
+    ],
+    "relevant_keywords": ["student specific accommodation"],
+    "reference_answer": "Student specific accommodation is purpose-built or designated student housing with its own tenancy rules registered with the Residential Tenancies Board."
+  },
+  {
+    "id": "income-tax-calculated",
+    "question": "How is my income tax calculated in Ireland?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/how-your-tax-is-calculated/",
+      "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/case-study-calculating-your-income-tax-case-studies/"
+    ],
+    "relevant_keywords": ["tax credits", "rate band"],
+    "reference_answer": "Income tax is calculated by applying standard and higher rates to income up to and above your rate band, then reducing the result by your tax credits."
+  },
+  {
+    "id": "universal-social-charge",
+    "question": "What is the Universal Social Charge?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/money-and-tax/tax/income-tax/universal-social-charge/"
+    ],
+    "relevant_keywords": ["Universal Social Charge", "gross income"],
+    "reference_answer": "The Universal Social Charge is a tax on gross income above a threshold, charged at rates that rise in bands, with some income types exempt."
+  },
+  {
+    "id": "tax-residence-domicile",
+    "question": "Am I tax resident in Ireland and what does domicile mean?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/money-and-tax/tax/moving-country-and-taxation/tax-residence-and-domicile-in-ireland/"
+    ],
+    "relevant_keywords": ["domicile", "ordinarily resident"],
+    "reference_answer": "Tax residence depends on days spent in Ireland over the tax year and prior year, while domicile reflects the country you treat as your permanent home."
+  },
+  {
+    "id": "tax-clearance-certificate",
+    "question": "How do I get a tax clearance certificate?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/money-and-tax/tax/tax-clearance-certificate/"
+    ],
+    "relevant_keywords": ["tax clearance", "Revenue"],
+    "reference_answer": "Tax clearance confirms your tax affairs are in order and is applied for electronically through Revenue, with the result verifiable by third parties."
+  },
+  {
+    "id": "capital-gains-tax",
+    "question": "What is capital gains tax in Ireland?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/money-and-tax/tax/capital-taxes/capital-gains-tax/"
+    ],
+    "relevant_keywords": ["capital gains tax", "dispos"],
+    "reference_answer": "Capital gains tax applies to the gain made when disposing of an asset, with annual exemptions and reliefs available in certain circumstances."
+  },
+  {
+    "id": "local-property-tax",
+    "question": "What is the local property tax and who pays it?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/money-and-tax/tax/housing-taxes-and-reliefs/local-property-tax/"
+    ],
+    "relevant_keywords": ["Local Property Tax", "residential property"],
+    "reference_answer": "Local property tax is an annual self-assessed charge on residential property based on its value, payable by the property owner."
+  },
+  {
+    "id": "starting-work-tax",
+    "question": "What tax do I pay when starting work for the first time?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/employment/starting-work-and-changing-job/starting-work/tax-and-starting-work/"
+    ],
+    "relevant_keywords": ["tax credits", "emergency tax"],
+    "reference_answer": "New employees are taxed under PAYE and should register the job with Revenue so tax credits and rate bands are applied correctly and emergency tax is avoided."
+  },
+  {
+    "id": "employer-health-safety",
+    "question": "What health and safety duties does my employer have?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/health-and-safety/health-safety-work/",
+      "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/employment-rights-and-duties/employer-obligations/"
+    ],
+    "relevant_keywords": ["safety statement", "risk assessment"],
+    "reference_answer": "Employers must provide a safe workplace, assess risks, maintain a safety statement, and give employees training and information on health and safety."
+  },
+  {
+    "id": "workplace-accident",
+    "question": "What should I do after an accident in the workplace?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/health-and-safety/accidents-in-the-workplace/"
+    ],
+    "relevant_keywords": ["accident", "report"],
+    "reference_answer": "Report the accident to your employer so it is recorded, seek medical attention, and be aware of possible entitlements to injury benefit or a claim."
+  },
+  {
+    "id": "remote-working-rights",
+    "question": "Can I work remotely from home and what are my rights?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/health-and-safety/working-at-home/",
+      "https://www.citizensinformation.ie/en/employment/employment-rights-and-conditions/contracts-of-employment/right-to-request-remote-working/"
+    ],
+    "relevant_keywords": ["remote working", "employer"],
+    "reference_answer": "Employees have a right to request remote working, which the employer must consider under a formal process, and health and safety duties still apply at home."
+  },
+  {
+    "id": "habitual-residence-condition",
+    "question": "What is the habitual residence condition for social welfare?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/social-welfare/irish-social-welfare-system/social-assistance-payments/habitual-residence-condition/"
+    ],
+    "relevant_keywords": ["habitual residence", "centre of interest"],
+    "reference_answer": "The habitual residence condition requires a proven close link to Ireland, assessed on factors such as length and continuity of residence and centre of interest, for certain welfare payments."
+  },
+  {
+    "id": "medical-card",
+    "question": "How do I apply for a medical card?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/health/medical-cards-and-gp-visit-cards/medical-card/"
+    ],
+    "relevant_keywords": ["medical card", "means test"],
+    "reference_answer": "Medical cards are means tested and applied for through the health service, giving access to certain health services free of charge if you qualify."
+  },
+  {
+    "id": "private-health-insurance",
+    "question": "Do I need private health insurance in Ireland?",
+    "intent": "legal_only",
+    "relevant_doc_ids": [
+      "https://www.citizensinformation.ie/en/health/health-system/private-health-insurance/",
+      "https://www.citizensinformation.ie/en/moving-country/moving-to-ireland/introduction-to-the-irish-system/health-care-in-ireland/"
+    ],
+    "relevant_keywords": ["health insurance", "ordinarily resident"],
+    "reference_answer": "Private health insurance is optional for residents but some immigration permissions require it; public health entitlements depend on being ordinarily resident."
+  }
+]

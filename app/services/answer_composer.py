@@ -10,11 +10,12 @@ This prevents hallucinations (making up facts).
 """
 
 from typing import List
-from openai import OpenAI
+from langfuse import observe
+from langfuse.openai import OpenAI
 from app.schemas.langgraph_state import RetrievalChunk, Citation, CitationType
 from app.core.config import settings
 
-
+@observe(name="compose_answer")
 def compose_answer(
     question: str,
     legal_chunks: List[RetrievalChunk],
