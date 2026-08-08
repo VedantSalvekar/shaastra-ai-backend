@@ -14,6 +14,7 @@ START → classify_intent → plan_queries → [retrieve legal / retrieve user d
 
 from typing import Annotated, TypedDict
 from langgraph.graph import StateGraph, END
+from langfuse import observe, propagate_attributes
 from sqlalchemy.orm import Session
 import operator
 
@@ -478,6 +479,7 @@ def create_orchestration_graph(db: Session):
 # MAIN ENTRY POINT
 # ============================================================================
 
+@observe(name="process_question")
 def process_question(
     question: str,
     user_id: str,
@@ -547,38 +549,38 @@ def process_question(
     }
     
     try:
-        # ========== STEP 2: Create and execute the graph ==========
-        graph = create_orchestration_graph(db)
-        
-        # Execute the graph - it will flow through all nodes automatically
-        print("\n[ORCHESTRATOR] Executing graph...")
-        final_state = graph.invoke(initial_state)
-        
-        # ========== STEP 3: Extract results from final state ==========
-        print("\n[ORCHESTRATOR] Graph execution completed")
-        print(f"[ORCHESTRATOR] Final answer: {final_state['final_answer'][:100]}...")
-        print(f"[ORCHESTRATOR] Citations: {len(final_state['citations'])}")
-        print(f"[ORCHESTRATOR] Needs clarification: {final_state['needs_clarification']}")
-        print(f"[ORCHESTRATOR] Reasoning steps: {len(final_state.get('reasoning_steps', []))}")
-        
-        # Print reasoning steps summary
-        if final_state.get('reasoning_steps'):
-            print("\n[ORCHESTRATOR] AI Reasoning Process:")
-            for i, step in enumerate(final_state['reasoning_steps'], 1):
-                print(f"  {i}. {step}")
-        
-        # ========== STEP 4: Return formatted response ==========
-        return OrchestrationResponse(
-            answer=final_state["final_answer"] or "I encountered an issue processing your question.",
-            citations=final_state["citations"],
-            needs_clarification=final_state["needs_clarification"],
-            clarifying_question=final_state.get("clarifying_question"),
-            metadata={
-                "intent": final_state["intent"].value if final_state.get("intent") else "unknown",
-                "legal_chunks_found": len(final_state.get("legal_context_chunks", [])),
-                "user_chunks_found": len(final_state.get("user_context_chunks", []))
-            }
-        )
+        with propagate_attributes(
+            user_id=str(user_id),
+            session_id=session_id,
+            metadata={"question": question[:500]},
+        ):
+            graph = create_orchestration_graph(db)
+
+            print("\n[ORCHESTRATOR] Executing graph...")
+            final_state = graph.invoke(initial_state)
+
+            print("\n[ORCHESTRATOR] Graph execution completed")
+            print(f"[ORCHESTRATOR] Final answer: {final_state['final_answer'][:100]}...")
+            print(f"[ORCHESTRATOR] Citations: {len(final_state['citations'])}")
+            print(f"[ORCHESTRATOR] Needs clarification: {final_state['needs_clarification']}")
+            print(f"[ORCHESTRATOR] Reasoning steps: {len(final_state.get('reasoning_steps', []))}")
+
+            if final_state.get('reasoning_steps'):
+                print("\n[ORCHESTRATOR] AI Reasoning Process:")
+                for i, step in enumerate(final_state['reasoning_steps'], 1):
+                    print(f"  {i}. {step}")
+
+            return OrchestrationResponse(
+                answer=final_state["final_answer"] or "I encountered an issue processing your question.",
+                citations=final_state["citations"],
+                needs_clarification=final_state["needs_clarification"],
+                clarifying_question=final_state.get("clarifying_question"),
+                metadata={
+                    "intent": final_state["intent"].value if final_state.get("intent") else "unknown",
+                    "legal_chunks_found": len(final_state.get("legal_context_chunks", [])),
+                    "user_chunks_found": len(final_state.get("user_context_chunks", []))
+                }
+            )
     
     except Exception as e:
         # If anything goes wrong, return an error response

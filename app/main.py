@@ -1,31 +1,32 @@
+import os
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.api import health, rag, user_docs
+from app.core.langfuse_client import flush_langfuse, init_langfuse
 
-origins = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000"
 
-]
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    init_langfuse()
+    yield
+    flush_langfuse()
+
+origins = os.getenv(
+    "CORS_ORIGINS",
+    "http://localhost:3000,http://127.0.0.1:3000",
+).split(",")
 
 
 app=FastAPI(
     title="Shaastra AI",
     description="RAG-based AI assistant with legal knowledge and user document management.",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan,
 )
 
-@app.on_event("startup")
-def on_startup() -> None:
-    try:
-        from app.db.session import engine
-        from app.db.base import Base
-        Base.metadata.create_all(bind=engine)
-        print("[INFO] Database initialized successfully")
-    except ImportError:
-        print("[INFO] Database not configured (missing psycopg2). Skipping DB initialization.")
-    except Exception as e:
-        print(f"[WARN] Database initialization failed: {e}")
+# Schema is managed by Alembic (see Dockerfile CMD). Do not use create_all here.
 
 app.add_middleware(
     CORSMiddleware,

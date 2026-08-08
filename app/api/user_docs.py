@@ -8,6 +8,7 @@ from app.services.user_docs import (
     ingest_user_document_text,
     reindex_all_user_documents,
     reindex_user_document,
+    delete_user_document,
 )
 from app.services.file_extraction import extract_text_from_file
 from app.api.deps import get_db, get_current_user
@@ -179,3 +180,22 @@ def reindex_all_user_documents_endpoint(
             detail=f"Failed to reindex documents: {e}",
         )
 
+
+@router.delete("/{document_id}", response_model=None)
+def delete_user_document_endpoint(
+    document_id: str,
+    current_user: User = Depends(get_current_user),
+    db: Session = Depends(get_db),
+) -> None:
+    """
+    Delete a user document and its associated Qdrant chunks.
+    """
+    try:
+        delete_user_document(document_id, db=db, user_id=current_user.id)
+    except ValueError as e:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(e))
+    except Exception as e:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to delete document: {e}",
+        )
